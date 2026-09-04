@@ -316,31 +316,3 @@ Every other script under `audits/`, `rq_*`, `validate_*`, and
 cites directly or another script in Part 1 reads - treat all of them as
 part of the reproducible chain, safe to re-run as needed.
 
-## Part 3 - Deprecated
-
-- `validate_antigen_classification.py` - superseded by
-  `validate_antigen_classifier_sample.py` + `validate_antigen_classifier_score.py`,
-  which fix a sampling-design issue (the deprecated script samples
-  grouped by the *predicted* class, which does not support a
-  population-weighted accuracy estimate - see the newer scripts'
-  docstrings for the full rationale). Not imported or called by anything
-  else in this repository; kept for reference rather than deleted.
-
----
-
-## Output reference
-
-Every script above prints the path it wrote on completion, and every
-output lands under `<work_dir>/tables/` unless noted otherwise. If you
-need to locate which script produced a specific number in the paper,
-`grep` the relevant table name across `scripts/` - the writer is always
-the script whose `--config`-driven `work_dir` path matches.
-
-## Before treating a re-run as a reproduction
-
-Cross-check your own run's headline numbers (population size, cluster
-counts, Gini coefficients) against the values quoted in the paper before
-relying on any downstream figure or table. A mismatch usually traces to a
-different SAbDab/Thera-SAbDab/OAS snapshot date rather than a pipeline
-error - see the paper's Appendix for the exact snapshot date and file
-checksums used.
