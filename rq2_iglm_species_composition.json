@@ -1,0 +1,137 @@
+{
+  "n_total_rows": 588488146,
+  "species_counts": {
+    "human": 483392328,
+    "mouse_C57BL/6J": 69093549,
+    "mouse_BALB/c": 20897284,
+    "rat": 3700086,
+    "HIS-mouse": 3654501,
+    "rabbit": 2644903,
+    "mouse_outbred": 1322683,
+    "rhesus": 1100695,
+    "Camel": 1091641,
+    "mouse_C57BL/6": 686335,
+    "mouse_Balb/c": 443811,
+    "mouse_outbred/C57BL/6": 384024,
+    "mouse_Igh/wt": 29581,
+    "mouse_Swiss-Webster": 16665,
+    "mouse_RAG2-GFP/129Sve": 13910,
+    "mouse_Ighg/g": 10873,
+    "mouse_Ighe/e": 5277
+  },
+  "species_fractions": {
+    "human": 0.8214138743246665,
+    "mouse_C57BL/6J": 0.11740856543948126,
+    "mouse_BALB/c": 0.03551011883933512,
+    "rat": 0.006287443553705838,
+    "HIS-mouse": 0.006209982350264707,
+    "rabbit": 0.004494403188879186,
+    "mouse_outbred": 0.0022475949753455187,
+    "rhesus": 0.0018703775215890245,
+    "Camel": 0.0018549923348838363,
+    "mouse_C57BL/6": 0.0011662681817213698,
+    "mouse_Balb/c": 0.0007541545280336029,
+    "mouse_outbred/C57BL/6": 0.0006525602981304571,
+    "mouse_Igh/wt": 5.026609321031252e-05,
+    "mouse_Swiss-Webster": 2.8318327417932392e-05,
+    "mouse_RAG2-GFP/129Sve": 2.363683974698107e-05,
+    "mouse_Ighg/g": 1.8476158056716404e-05,
+    "mouse_Ighe/e": 8.967045531618915e-06
+  },
+  "species_x_chain_counts": {
+    "human_Heavy": 412807447,
+    "human_Light": 70584881,
+    "mouse_C57BL/6J_Heavy": 69080355,
+    "mouse_BALB/c_Heavy": 20359264,
+    "rat_Heavy": 3700086,
+    "rabbit_Heavy": 2644903,
+    "HIS-mouse_Light": 2636837,
+    "mouse_outbred_Heavy": 1322683,
+    "Camel_Heavy": 1091641,
+    "HIS-mouse_Heavy": 1017664,
+    "rhesus_Light": 719674,
+    "mouse_C57BL/6_Heavy": 686335,
+    "mouse_BALB/c_Light": 538020,
+    "mouse_Balb/c_Heavy": 443811,
+    "mouse_outbred/C57BL/6_Heavy": 384024,
+    "rhesus_Heavy": 381021,
+    "mouse_Igh/wt_Heavy": 29581,
+    "mouse_C57BL/6J_Light": 13194,
+    "mouse_Swiss-Webster_Heavy": 12417,
+    "mouse_Ighg/g_Heavy": 10873,
+    "mouse_RAG2-GFP/129Sve_Heavy": 7802,
+    "mouse_RAG2-GFP/129Sve_Light": 6108,
+    "mouse_Ighe/e_Heavy": 5277,
+    "mouse_Swiss-Webster_Light": 4248
+  },
+  "human_fraction": 0.8214138743246665,
+  "non_human_fraction": 0.1785861256753335,
+  "provenance_note": "Computed via a streaming awk pass over the real IgLM train.csv + test.csv (588,488,146 total rows, reconciling almost exactly with the 558M train + 1M val + ~29M test IgLM/OAS-derived scale documented in the project handoff -- strong independent confirmation this is the expected dataset). NOT computed via rq2_iglm_comparison.py's Phase 1 (that run was abandoned as impractically slow on this file size / NFS mount; awk's single streaming pass with flat memory finished in 21m52s). human_fraction/non_human_fraction use case-insensitive matching on 'human', consistent with the fix applied to species_composition_report() in rq2_iglm_comparison.py.",
+  "label_fragmentation_note": "Raw species_counts/species_x_chain_counts above preserve the exact raw strings as they appear in the source file, including a known case-variant duplicate: 'mouse_BALB/c' and 'mouse_Balb/c' are the same strain reported under two capitalizations (20,359,264 and 443,811 rows respectively). See canonicalized_species_rollup below for a case-folded rollup that merges these and all other species labels case-insensitively; use that version for any single clean per-species figure reported in the paper.",
+  "canonicalized_species_rollup": {
+    "human": {
+      "n": 483392328,
+      "fraction": 0.8214138743246665
+    },
+    "mouse_c57bl/6j": {
+      "n": 69093549,
+      "fraction": 0.11740856543948126
+    },
+    "mouse_balb/c": {
+      "n": 21341095,
+      "fraction": 0.036264273367368725
+    },
+    "rat": {
+      "n": 3700086,
+      "fraction": 0.006287443553705838
+    },
+    "his-mouse": {
+      "n": 3654501,
+      "fraction": 0.006209982350264707
+    },
+    "rabbit": {
+      "n": 2644903,
+      "fraction": 0.004494403188879186
+    },
+    "mouse_outbred": {
+      "n": 1322683,
+      "fraction": 0.0022475949753455187
+    },
+    "rhesus": {
+      "n": 1100695,
+      "fraction": 0.0018703775215890245
+    },
+    "camel": {
+      "n": 1091641,
+      "fraction": 0.0018549923348838363
+    },
+    "mouse_c57bl/6": {
+      "n": 686335,
+      "fraction": 0.0011662681817213698
+    },
+    "mouse_outbred/c57bl/6": {
+      "n": 384024,
+      "fraction": 0.0006525602981304571
+    },
+    "mouse_igh/wt": {
+      "n": 29581,
+      "fraction": 5.026609321031252e-05
+    },
+    "mouse_swiss-webster": {
+      "n": 16665,
+      "fraction": 2.8318327417932392e-05
+    },
+    "mouse_rag2-gfp/129sve": {
+      "n": 13910,
+      "fraction": 2.363683974698107e-05
+    },
+    "mouse_ighg/g": {
+      "n": 10873,
+      "fraction": 1.8476158056716404e-05
+    },
+    "mouse_ighe/e": {
+      "n": 5277,
+      "fraction": 8.967045531618915e-06
+    }
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "method": "Backbone CA-RMSD computed WITHIN each non-singleton CDR-H3 sequence cluster only (90% identity clusters from Section B), never across clusters. Pairs with unequal H3 length are reported as a separate length-mismatch bucket and are NOT forced into a misleading truncated/padded comparison.",
+  "n_non_singleton_clusters_total": 3452,
+  "n_clusters_skipped_too_large": 0,
+  "clusters_skipped_too_large": [],
+  "max_cluster_size_threshold": 700,
+  "n_clusters_with_no_valid_comparable_pairs": 3,
+  "n_load_or_isolation_failures": 0,
+  "n_equal_length_pairs_compared": 392914,
+  "n_length_mismatch_pairs_excluded": 131,
+  "length_mismatch_fraction_of_attempted_pairs": 0.00033329516976427637,
+  "within_cluster_ca_rmsd": {
+    "n_pairs": 392914,
+    "mean_angstrom": 0.5042740879891547,
+    "median_angstrom": 0.32917791540392566,
+    "std_angstrom": 0.5141179078950281,
+    "min_angstrom": 5.292991177986125e-08,
+    "max_angstrom": 12.093552696521254,
+    "p95_angstrom": 1.664919588664662,
+    "fraction_under_2A": 0.9826297866708745,
+    "fraction_under_1A": 0.8745247051517635
+  },
+  "per_cluster_summaries_top20_by_mean_rmsd": [
+    {
+      "cluster_rep": "4imk_AD_ag_m0",
+      "n_members": 4,
+      "n_valid_members": 4,
+      "n_equal_length_pairs_compared": 6,
+      "mean_rmsd_angstrom": 4.834593502691525,
+      "max_rmsd_angstrom": 6.694582554901159
+    },
+    {
+      "cluster_rep": "6ca9_BA_ag_m0",
+      "n_members": 6,
+      "n_valid_members": 6,
+      "n_equal_length_pairs_compared": 10,
+      "mean_rmsd_angstrom": 4.579044499572693,
+      "max_rmsd_angstrom": 7.45812548242687
+    },
+    {
+      "cluster_rep": "2or9_HL_agP_m0",
+      "n_members": 2,
+      "n_valid_members": 2,
+      "n_equal_length_pairs_compared": 1,
+      "mean_rmsd_angstrom": 4.348214598005555,
+      "max_rmsd_angstrom": 4.348214598005555
+    },
+    {
+      "cluster_rep": "9ecx_CD_agNA_m0",
+      "n_members": 6,
+      "n_valid_members": 6,
+      "n_equal_length_pairs_compared": 15,
+      "mean_rmsd_angstrom": 4.240918753383606,
+      "max_rmsd_angstrom": 7.328829728268403
+    },
+    {
+      "cluster_rep": "8tv1_DE_agC_m0",
+      "n_members": 3,
+      "n_valid_members": 3,
+      "n_equal_length_pairs_compared": 3,
+      "mean_rmsd_angstrom": 4.100869644627182,
+      "max_rmsd_angstrom": 5.213972994842526
+    },
+    {
+      "cluster_rep": "3iy6_BA_ag_m0",
+      "n_members": 2,
+      "n_valid_members": 2,
+      "n_equal_length_pairs_compared": 1,
+      "mean_rmsd_angstrom": 3.9897263881537084,
+      "max_rmsd_angstrom": 3.9897263881537084
+    },
+    {
+      "cluster_rep": "7l57_HL_agB_m0",
+      "n_members": 2,
+      "n_valid_members": 2,
+      "n_equal_length_pairs_compared": 1,
+      "mean_rmsd_angstrom": 3.8859255847851184,
+      "max_rmsd_angstrom": 3.8859255847851184
+    },
+    {
+      "cluster_rep": "4eow_HL_ag_m0",
+      "n_members": 2,
+      "n_valid_members": 2,
+      "n_equal_length_pairs_compared": 1,
+      "mean_rmsd_angstrom": 3.8524150199367835,
+      "max_rmsd_angstrom": 3.8524150199367835
+    },
+    {
+      "cluster_rep": "9mnt_HL_agE_m0",
+      "n_members": 3,
+      "n_valid_members": 3,
+      "n_equal_length_pairs_compared": 3,
+      "mean_rmsd_angstrom": 3.610796318638654,
+      "max_rmsd_angstrom": 5.202468964595549
+    },
+    {
+      "cluster_rep": "5x08_HL_agP_m0",
+      "n_members": 9,
+      "n_valid_members": 9,
+      "n_equal_length_pairs_compared": 36,
+      "mean_rmsd_angstrom": 3.6024157584331715,
+      "max_rmsd_angstrom": 12.093552696521254
+    },
+    {
+      "cluster_rep": "8cxn_DNA_agA_m0",
+      "n_members": 3,
+      "n_valid_members": 3,
+      "n_equal_length_pairs_compared": 3,
+      "mean_rmsd_angstrom": 3.5063891952298465,
+      "max_rmsd_angstrom": 4.373600718853649
+    },
+    {
+      "cluster_rep": "6qn7_AB_ag_m0",
+      "n_members": 3,
+      "n_valid_members": 3,
+      "n_equal_length_pairs_compared": 3,
+      "mean_rmsd_angstrom": 3.4637147195126032,
+      "max_rmsd_angstrom": 4.982043853286925
+    },
+    {
+      "cluster_rep": "1rhh_BA_ag_m0",
+      "n_members": 3,
+      "n_valid_members": 3,
+      "n_equal_length_pairs_compared": 3,
+      "mean_rmsd_angstrom": 3.4396106486795754,
+      "max_rmsd_angstrom": 4.962197633773841
+    },
+    {
+      "cluster_rep": "5f89_AB_ag_m0",
+      "n_members": 4,
+      "n_valid_members": 4,
+      "n_equal_length_pairs_compared": 6,
+      "mean_rmsd_angstrom": 3.2191914717593586,
+      "max_rmsd_angstrom": 4.754663519540139
+    },
+    {
+      "cluster_rep": "7kkk_BNA_agA_m0",
+      "n_members": 11,
+      "n_valid_members": 11,
+      "n_equal_length_pairs_compared": 55,
+      "mean_rmsd_angstrom": 3.119318705476795,
+      "max_rmsd_angstrom": 5.665425146915493
+    },
+    {
+      "cluster_rep": "7omn_ANA_agNA_m0",
+      "n_members": 3,
+      "n_valid_members": 3,
+      "n_equal_length_pairs_compared": 3,
+      "mean_rmsd_angstrom": 3.100164549768593,
+      "max_rmsd_angstrom": 4.386243514198624
+    },
+    {
+      "cluster_rep": "3x3f_HL_agA_m0",
+      "n_members": 2,
+      "n_valid_members": 2,
+      "n_equal_length_pairs_compared": 1,
+      "mean_rmsd_angstrom": 3.096687963592096,
+      "max_rmsd_angstrom": 3.096687963592096
+    },
+    {
+      "cluster_rep": "6umg_HL_agC _ R_m0",
+      "n_members": 6,
+      "n_valid_members": 6,
+      "n_equal_length_pairs_compared": 15,
+      "mean_rmsd_angstrom": 3.0291554207380385,
+      "max_rmsd_angstrom": 5.171021295042095
+    },
+    {
+      "cluster_rep": "1ohq_ANA_ag_m0",
+      "n_members": 5,
+      "n_valid_members": 5,
+      "n_equal_length_pairs_compared": 10,
+      "mean_rmsd_angstrom": 3.0184978348560842,
+      "max_rmsd_angstrom": 4.352151225275558
+    },
+    {
+      "cluster_rep": "6rcq_AB_ag_m0",
+      "n_members": 3,
+      "n_valid_members": 3,
+      "n_equal_length_pairs_compared": 3,
+      "mean_rmsd_angstrom": 2.9638918740138016,
+      "max_rmsd_angstrom": 4.290712680074932
+    }
+  ]
+}

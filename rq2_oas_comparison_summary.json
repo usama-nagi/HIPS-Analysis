@@ -1,0 +1,22 @@
+{
+  "scope_note": "OAS mmap retains no V-gene calls (v_gene_check was filter-only, not stored). RQ2 germline comparison is SAbDab-internal only; OAS comparison is limited to CDR-H3 length and clonotype diversity.",
+  "species_scope_note": "This OAS mmap was built with an explicit human-only sample filter applied at construction time, confirmed against the preprocessing pipeline (not merely a loader-default assumption) -- so the heavy_species == 'homo sapiens' restriction on the SAbDab side is a genuine like-for-like species match, not a one-sided restriction against an uncharacterized comparator. For broader context: a separate, independently-verified IgLM-derived reprocessing of OAS (588,488,146 sequences across the full train+test release) shows the unfiltered OAS pool is 82.14% human / 17.86% non-human (mouse, rat, rabbit, camelid, rhesus) -- this figure describes OAS generally and supersedes this project's earlier 'assumed human-only by convention' caveat, but it is not itself evidence about this specific mmap, whose human-only composition is independently confirmed by construction.",
+  "sabdab_human_n": 9602,
+  "oas_heavy_sampled_n": 2000000,
+  "oas_paired_sampled_n": 2000000,
+  "oas_heavy_total_pool": 183320622,
+  "oas_paired_total_pool": 3001590,
+  "length_jsd_sabdab_vs_oas_heavy": 0.021629233228825425,
+  "oas_heavy_length_mean": 14.9556645,
+  "oas_heavy_length_entropy_bits": 3.9536266639056867,
+  "length_jsd_sabdab_vs_oas_paired": 0.01604457705721552,
+  "oas_paired_length_mean": 15.5538145,
+  "oas_paired_length_entropy_bits": 3.985581447256504,
+  "sabdab_human_length_mean": 15.775151010206207,
+  "sabdab_human_length_entropy_bits": 4.107814903658832,
+  "oas_heavy_clonotype_diversity": {
+    "n_sampled": 2000000,
+    "n_unique_clonotypes": 1181244,
+    "unique_fraction": 0.590622
+  }
+}

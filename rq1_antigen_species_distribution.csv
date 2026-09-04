@@ -1,0 +1,945 @@
+antigen_species,count
+unknown,3907
+homo sapiens,3278
+severe acute respiratory syndrome coronavirus2,2491
+human immunodeficiency virus 1,1188
+homo sapiens | homo sapiens,997
+mus musculus,589
+plasmodium falciparum,350
+influenza a virus,328
+escherichia coli,225
+synthetic construct,192
+human immunodeficiency virus 1 | human immunodeficiency virus 1,161
+influenza a virus | influenza a virus,159
+homo sapiens | homo sapiens | homo sapiens,146
+gallus gallus,112
+plasmodium falciparum 3d7,109
+rattus norvegicus,98
+homo sapiens | rattus norvegicus,77
+streptomyces lividans,77
+middle east respiratory syndrome-relatedcoronavirus,72
+severe acute respiratory syndrome coronavirus,71
+zika virus,69
+bos taurus,64
+severe acute respiratory syndrome coronavirus2  | severe acute respiratory syndrome coronavirus2,56
+staphylococcus aureus,55
+hepatitis c virus,53
+hiv-1 06tg.ht008,53
+respiratory syncytial virus a2,53
+clostridium botulinum,51
+dengue virus 2,50
+ebola virus,47
+caenorhabditis elegans,44
+ricinus communis,43
+plasmodium vivax,40
+influenza b virus,39
+saccharomyces cerevisiae,33
+caulobacter vibrioides,33
+"severe acute respiratory syndrome coronavirus2, enterobacteria phage t4",32
+bos taurus | homo sapiens,32
+"homo sapiens, escherichia coli",31
+"mus musculus, homo sapiens",31
+plasmodium vivax (strain salvador i),30
+norovirus,30
+henipavirus nipahense,30
+human metapneumovirus,30
+helicobacter pylori,30
+human immunodeficiency virus 1 | human immunodeficiency virus 1 | human immunodeficiency virus 1,29
+arachis hypogaea,28
+human respirovirus 3,28
+lama glama,27
+hepacivirus c,27
+arabidopsis thaliana,25
+plasmodium falciparum (isolate 3d7),24
+sus scrofa,24
+eastern equine encephalitis virus,24
+nipah henipavirus,24
+zika virus zikv/h.sapiens/frenchpolynesia/10087pf/2013,24
+thermotoga maritima | thermotoga maritima,24
+human betaherpesvirus 5,23
+human gammaherpesvirus 4,23
+pseudomonas aeruginosa pa14,23
+"severe acute respiratory syndrome coronavirus2, tequatrovirus t4, synthetic construct",23
+saccharopolyspora erythraea,23
+paramecium bursaria chlorella virus cz-2,22
+human immunodeficiency virus,22
+bos taurus | rattus norvegicus,22
+respiratory syncytial virus,22
+influenza a virus (a/california/07/2009(h1n1)),22
+clostridioides difficile,22
+"severe acute respiratory syndrome coronavirus2, enterobacteria phage t6, synthetic construct",22
+aequorea victoria,22
+severe fever with thrombocytopenia syndromevirus,22
+drosophila melanogaster,22
+saccharomyces cerevisiae (strain atcc 204508 /s288c),21
+escherichia coli k-12,20
+human papillomavirus type 16,20
+rift valley fever virus,20
+vesicular stomatitis indiana virus (strain sanjuan),20
+canis lupus familiaris,20
+hepatitis c virus (isolate h),19
+"ebola virus - mayinga, zaire, 1976",19
+borreliella burgdorferi b31,19
+chikungunya virus | chikungunya virus,19
+vaccinia virus,19
+sudan ebolavirus,18
+human coronavirus oc43,18
+rattus norvegicus | homo sapiens,18
+dengue virus 1,17
+recombinant hepatitis c virus hk6a/jfh-1,17
+"homo sapiens, aequorea victoria",17
+influenza a virus (strain a/hong kong/1/1968h3n2)  | influenza a virus (strain a/hong kong/1/1968h3n2),17
+hepatitis e virus,16
+influenza a virus(a/environment/shanghai/s1439/2013(h7n9)),16
+camelidae,16
+escherichia coli (strain k12),16
+meleagris gallopavo,15
+dengue virus 3,15
+dengue virus type 2,15
+dickeya chrysanthemi,15
+monkeypox virus,15
+simian immunodeficiency virus,15
+human betacoronavirus 2c emc/2012,15
+"severe acute respiratory syndrome coronavirus2, escherichia virus t4",15
+bacillus anthracis,14
+hiv-1 m,14
+"escherichia coli, homo sapiens",14
+yellow fever virus,14
+vicugna pacos,14
+influenza a virus (a/solomonislands/3/2006(h1n1)),14
+norwalk virus,14
+zaire ebolavirus,14
+"severe acute respiratory syndrome coronavirus2, tequatrovirus t4",14
+influenza a virus (a/brevigmission/1/1918(h1n1)),13
+dengue virus,13
+escherichia coli o157,13
+vaccinia virus western reserve,13
+clostridium difficile,13
+neisseria meningitidis,13
+trypanosoma congolense,12
+aquifex aeolicus (strain vf5),12
+saccharomyces cerevisiae | saccharomyces cerevisiae,12
+influenza a virus (a/texas/50/2012(h3n2)),12
+murine norovirus 1,12
+aeropyrum pernix,12
+saccharomyces cerevisiae (atcc 204508 / s288c),12
+eggerthella lenta,12
+chikungunya virus strain senegal 37997,12
+pseudomonas aeruginosa,12
+porphyromonas gingivalis,12
+human alphaherpesvirus 3,12
+camelus bactrianus,12
+pseudomonas sp. vlb120,12
+betula pendula,11
+plasmodium berghei,11
+escherichia phage qbeta | escherichia phage qbeta,11
+dermatophagoides pteronyssinus,11
+"enterobacteria phage t4, homo sapiens",11
+foot-and-mouth disease virus,11
+norwalk virus (strain gi/human/unitedstates/norwalk/1968),11
+human coronavirus 229e,11
+nipah virus,11
+trypanosoma brucei,11
+junin mammarenavirus,11
+lassa virus,11
+betapolyomavirus hominis,10
+human papillomavirus type 6,10
+middle east respiratory syndrome coronavirus,10
+shewanella oneidensis,10
+influenza a virus (a/singapore/1/1957(h2n2)),10
+severe acute respiratory syndrome-relatedcoronavirus,10
+naja kaouthia,10
+macaca fascicularis,10
+venezuelan equine encephalitis virus | venezuelan equine encephalitis virus,10
+artificial gene,10
+human immunodeficiency virus type 1,10
+staphylococcus aureus | finegoldia magna,10
+"alkalilimnicola ehrlichii (strain atcc baa-1101/ dsm 17681 / mlhe-1), ruegeria pomeroyi (strain atcc 700808 / dsm 15171 / dss-3)",10
+influenza a virus(a/chicken/vietnam/32/2004(h5n1)),10
+mus musculus | mus musculus,10
+thermus thermophilus,10
+aquifex aeolicus,10
+lassa mammarenavirus,10
+human papillomavirus type 59,10
+aquifex aeolicus vf5,9
+chikungunya virus,9
+"homo sapiens | synthetic construct, thermotoga maritima msb8",9
+synthetic construct | homo sapiens,9
+human respiratory syncytial virus a2,9
+influenza a virus (a/beijing/262/1995(h1n1)),9
+anaplasma marginale,9
+rattus rattus,9
+lotus japonicus,9
+influenza a virus (a/shanghai/02/2013(h7n9)),9
+synthetic construct | synthetic construct,9
+homo sapiens | homo sapiens | homo sapiens | homo sapiens,9
+norovirus hu/gii.4/sydney/nsw0514/2012/au,9
+porcine deltacoronavirus,9
+hepatitis b virus,9
+dengue virus 4,9
+human respiratory syncytial virus,9
+influenza a virus (a/michigan/45/2015(h1n1)) | influenza a virus (a/michigan/45/2015(h1n1)),9
+salmonella enterica subsp. enterica serovartyphimurium str. lt2,9
+human alphaherpesvirus 1,9
+streptococcus pyogenes,9
+ricinus communis | ricinus communis,9
+borreliella burgdorferi,9
+sars coronavirus,9
+human respiratory syncytial virus a,9
+homo sapiens | cytomegalovirus,9
+"human papillomavirus type 16, pongo pygmaeus,homo sapiens",8
+venezuelan equine encephalitis virus (straintc-83),8
+homo sapiens | mus musculus,8
+hepatitis e virus (strain pakistan),8
+mammarenavirus juninense,8
+human astrovirus-2,8
+rattus norvegicus | rattus norvegicus,8
+"homo sapiens, enterobacteria phage t4",8
+vibrio cholerae,8
+coxsackievirus b1 | coxsackievirus b1 | coxsackievirus b1,8
+kasokero virus,8
+shigella flexneri,8
+bundibugyo ebolavirus,8
+human metapneumovirus a,8
+rocahepevirus ratti,8
+nanoa,8
+coxsackievirus b1,8
+hendra henipavirus,8
+human immunodeficiency virus 1 | synthetic construct,8
+west nile virus,8
+homo sapiens | rattus norvegicus | bos taurus,8
+salmonella phage p22,8
+oryctolagus cuniculus,8
+"alkalilimnicola ehrlichii mlhe-1, ruegeriapomeroyi dss-3",8
+lassa virus josiah,8
+"human respiratory syncytial virus a (straina2), enterobacteria phage t4",8
+monkeypox virus | monkeypox virus,8
+oryzias latipes | oryzias latipes,7
+staphylococcus capitis,7
+bos taurus | bos taurus,7
+ebola virus | ebola virus,7
+echovirus e3 | echovirus e3,7
+pangolin coronavirus,7
+influenza a virus (a/solomonislands/3/2006(h1n1))  | influenza a virus (a/solomonislands/3/2006(h1n1)),7
+zaire ebolavirus (strain mayinga-76),7
+homo sapiens | rattus,7
+influenza a virus (strain swla/california/04/2009 h1n1),7
+lactococcus phage tp901-1,7
+human respiratory syncytial virus a (straina2),7
+zika virus | zika virus,7
+yellow fever virus (strain 17d vaccine),7
+trypanosoma brucei brucei,7
+lassa mammarenavirus | lassa mammarenavirus,7
+caulobacter vibrioides | caulobacter vibrioides,6
+homo sapiens | rattus rattus,6
+influenza b virus (b/iowa/06/2017),6
+coxsackievirus b1 | coxsackievirus b1,6
+anas platyrhynchos,6
+"respiratory syncytial virus, humanimmunodeficiency virus 1",6
+respiratory syncytial virus | respiratory syncytial virus,6
+unidentified influenza virus | unidentified influenza virus,6
+human alphaherpesvirus 1 strain kos,6
+lassa virus (strain mouse/sierraleone/josiah/1976)  | lassa virus,6
+human herpesvirus 2 strain g,6
+homo sapiens | bos taurus,6
+bacteroides fragilis,6
+"human respiratory syncytial virus a2, humanimmunodeficiency virus 1  | human respiratory syncytial virus a2",6
+zika virus (isolate zikv/human/frenchpolynesia/10087pf/2013),6
+neisseria meningitidis serogroup b,6
+discosoma sp.,6
+galaxea fascicularis,6
+human rhinovirus 14,6
+influenza a virus (strain a/new zealandcanterbury/35/2000 h1n1)  | influenza a virus (strain a/new zealandcanterbury/35/2000 h1n1),6
+rabies virus cvs-11,6
+influenza a virus (a/california/04/2009(h1n1)),6
+influenza a virus (a/hongkong/485197/2014(h3n2))  | influenza a virus (a/hongkong/485197/2014(h3n2)),6
+"homo sapiens, aequorea victoria | homo sapiens, aequorea victoria",6
+human cytomegalovirus (strain merlin),6
+clostridium perfringens,6
+homo sapiens | bos taurus | bos taurus,6
+hepatitis b virus genotype d subtype adw,6
+foot-and-mouth disease virus a,6
+thermotoga maritima (strain atcc 43589 / msb8 /dsm 3109 / jcm 10099)  | thermotoga maritima (strain atcc 43589 / msb8 /dsm 3109 / jcm 10099),6
+hepatitis e virus genotype 1 (isolatehuman/burma),6
+eastern equine encephalitis virus | eastern equine encephalitis virus,6
+human herpesvirus 2 strain hg52,6
+reovirus sp.,6
+triticum aestivum,6
+influenza a virus | influenza a virus | influenza a virus,6
+macaca mulatta,6
+ciona intestinalis,6
+| finegoldia magna,6
+influenza a virus (a/x-31(h3n2)),6
+xenopus laevis,6
+vibrio cholerae serotype o1 (strain atcc 39315/ el tor inaba n16961),6
+homo sapiens |,6
+"human respiratory syncytial virus a (straina2), human immunodeficiency virus 1",6
+human immunodeficiency virus type 3,6
+lactococcus phage p2,6
+influenza a virus (a/duck/fujian/13/2002(h5n1)),5
+homo sapiens | bos taurus | rattus norvegicus,5
+pseudomonas aeruginosa | pseudomonas aeruginosa,5
+artificial sequences,5
+human betaherpesvirus 5 | human betaherpesvirus 5,5
+"haemophilus influenzae, human immunodeficiencyvirus 1, haemophilus influenzae (strain atcc 51907 / dsm 11121 / kw20 / rd)",5
+saccharomyces cerevisiae (strain atcc 204508 /s288c)  | saccharomyces cerevisiae (strain atcc 204508 /s288c),5
+plasmodium falciparum | lama glama,5
+human respiratory syncytial virus a (strainrsb6256),5
+finegoldia magna,5
+hepatitis b virus genotype c | hepatitis b virus genotype c,5
+bacillus licheniformis,5
+influenza a virus (straina/duck/alberta/35/1976 h1n1)  | influenza a virus (straina/duck/alberta/35/1976 h1n1),5
+salmonella typhi,5
+human cytomegalovirus,5
+foot-and-mouth disease virus | foot-and-mouth disease virus,5
+lake victoria marburgvirus (strain musoke-80),5
+escherichia phage qbeta | escherichia phage qbeta | escherichia phage qbeta,5
+plasmodium vivax sal-1,5
+xenopus tropicalis,5
+enterobacteria phage 933w,5
+sudan ebolavirus (strain boniface-76),5
+influenza a virus (a/anhui/1/2005(h5n1)),5
+influenza a virus (a/moscow/10/1999(h3n2)),5
+vesicular stomatitis indiana virus,5
+human papillomavirus 16,5
+western equine encephalitis virus | western equine encephalitis virus,5
+toxoplasma gondii,5
+langya virus,5
+"synthetic construct, homo sapiens",5
+listeria monocytogenes serovar 1/2a,5
+human coronavirus hku1 (isolate n1),5
+epstein-barr virus,5
+human immunodeficiency virus 1 | homo sapiens,5
+influenza a virus (a/viet nam/1203/2004(h5n1)) | influenza a virus (a/viet nam/1203/2004(h5n1)),5
+apis mellifera,5
+centruroides noxius hoffmann,5
+bungarus multicinctus,5
+hepacivirus hominis,5
+dengue virus type 3 | dengue virus type 3,5
+vaccinia virus western reserve | vaccinia virus western reserve,4
+plasmodium berghei anka,4
+trypanosoma congolense il3000,4
+insect expression vector pbluebacmsgca1his,4
+ross river virus (strain t48),4
+borrelia burgdorferi,4
+lake victoria marburgvirus,4
+human coronavirus emc (isolate unitedkingdom/h123990006/2012),4
+mycoplasma hyopneumoniae j,4
+influenza a virus (a/newcaledonia/20/1999(h1n1)),4
+influenza a virus (strain a/northernterritory/60/1968 h3n2)  | influenza a virus (strain a/northernterritory/60/1968 h3n2),4
+influenza a virus (a/california/04/2009 (h1n1),4
+dengue virus type 3,4
+methanocaldococcus jannaschii (strain atcc43067 / dsm 2661 / jal-1 / jcm 10045 / nbrc 100440),4
+escherichia coli ms 198-1,4
+"homo sapiens, escherichia coli o11 | homo sapiens, escherichia coli o11",4
+staphylococcus aureus (strain usa300),4
+staphylococcus aureus (strain mssa476),4
+"homo sapiens | homo sapiens, synthetic construct",4
+chlorobaculum tepidum,4
+saguaro cactus virus,4
+norovirus hu/gii.4/farmington hills/2004/usa,4
+"arcobacter butzleri (strain rm4018), homosapiens  | arcobacter butzleri (strain rm4018), homosapiens  | thrixopelma pruriens",4
+influenza a virus (a/anhui/1-balf_rg44/2013(h7n9)),4
+coxsackievirus a16 | coxsackievirus a16,4
+shewanella oneidensis mr-1,4
+coxsackievirus a16,4
+vibrio vulnificus,4
+"homo sapiens, pongo pygmaeus",4
+"saccharopolyspora erythraea, streptomyceslasalocidi",4
+escherichia coli ms 117-3,4
+"homo sapiens, influenza a virus(a/california/04/2009(h1n1))",4
+influenza a virus (a/red knot/delawarebay/310/2016(h10n4)),4
+crimean-congo hemorrhagic fever virus strainibar10200,4
+methanococcus maripaludis,4
+homo sapiens | synthetic construct,4
+staphylococcus aureus subsp. aureus col,4
+simian immunodeficiency virus | simian immunodeficiency virus,4
+crimean-congo hemorrhagic feverorthonairovirus,4
+fusobacterium nucleatum,4
+oxyuranus scutellatus scutellatus,4
+human respiratory syncytial virus b,4
+human poliovirus 1 mahoney,4
+human gammaherpesvirus 4 | human gammaherpesvirus 4,4
+ovis aries,4
+human astrovirus-8,4
+aliarcobacter butzleri rm4018 | aliarcobacter butzleri rm4018,4
+hantaan orthohantavirus,4
+streptomyces lividans | streptomyces lividans,4
+human immunodeficiency virus 1 |,4
+escherichia coli uti89,4
+measles morbillivirus | measles morbillivirus,4
+influenza b virus (b/colorado/06/2017),4
+ruminococcus gauvreauii,4
+"sus scrofa, homo sapiens",4
+zaire ebola virus | zaire ebola virus,4
+simian virus 12,4
+mycobacterium tuberculosis h37rv,4
+bos taurus | synthetic construct,4
+human papillomavirus type 16 | human papillomavirus type 16,4
+human immunodeficiency virus type 1 (jrcsfisolate),4
+human herpesvirus 4,4
+machupo virus,4
+trypanosoma brucei rhodesiense,4
+trypanosoma congolense (strain il3000),4
+influenza a virus (strain a/hong kong/1/1968h3n2),4
+bovine schmallenberg virus,4
+"escherichia coli, staphylococcus aureus subsp.aureus n315, streptococcus sp. 'group g'",4
+influenza a virus (a/viet nam/1203/2004(h5n1)),4
+human rhinovirus 14 | human rhinovirus 14 | human rhinovirus 14,4
+naja pallida,4
+zaire ebolavirus (strain mayinga-76) | zaire ebolavirus (strain mayinga-76),4
+zaire ebolavirus | ebola virus sp.,4
+methanococcus maripaludis (strain s2 / ll),4
+bundibugyo ebolavirus | bundibugyo ebolavirus,4
+hepatitis c virus subtype 1b,4
+influenza a virus (a/california/7/2009(h1n1)),4
+paracoccus denitrificans,4
+rhinovirus b14 | rhinovirus b14,4
+japanese encephalitis virus,4
+"bos taurus, homo sapiens | homo sapiens",4
+enterovirus a71 | enterovirus a71 | enterovirus a71,4
+amycolatopsis mediterranei,4
+human hepatitis a virushu/australia/hm175/1976,4
+danio rerio,4
+human astrovirus 1,3
+lymphocytic choriomeningitis virus | lymphocytic choriomeningitis virus,3
+dengue virus 2 | dengue virus 2,3
+crimean-congo hemorrhagic fever virus,3
+sars coronavirus wh20,3
+oryzias latipes,3
+western equine encephalitis virus,3
+rabies virus,3
+sus scrofa | sus scrofa,3
+lassa virus | lassa virus,3
+poliovirus type 1 (strain mahoney),3
+murid herpesvirus 68,3
+african swine fever virus (strain badajoz 1971vero-adapted),3
+hiv whole-genome vector aa1305#18,3
+"aequorea coerulescens | synthetic construct, thermotoga maritima msb8",3
+lake victoria marburgvirus (strain ravn-87) | lake victoria marburgvirus (strain ravn-87),3
+saccharopolyspora erythraea | saccharopolyspora erythraea,3
+"ravn virus - ravn, kenya, 1987",3
+influenza a virus (a/perth/16/2009(h3n2)),3
+macacine gammaherpesvirus 4,3
+respiratory syncytial virus a2 | human respiratory syncytial virus a2,3
+zika virus (isolate zikv/human/frenchpolynesia/10087pf/2013)  | zika virus (isolate zikv/human/frenchpolynesia/10087pf/2013),3
+vesicular stomatitis virus,3
+influenza a virus (a/shanghai/js01/2013(h7n9)) | influenza a virus (a/shanghai/js01/2013(h7n9)),3
+carnobacterium sp. at7,3
+human respiratory syncytial virus 9320 | human respiratory syncytial virus 9320,3
+bacteroides uniformis atcc 8492,3
+human poliovirus 1,3
+"aquifex aeolicus vf5, homo sapiens",3
+clostridium tetani,3
+escherichia coli | escherichia coli,3
+sfts virus js4,3
+"human respiratory syncytial virus a (straina2), human immunodeficiency virus 1  | human respiratory syncytial virus a (straina2), human immunodeficiency virus 1",3
+mycobacterium tuberculosis '98-r604 inh-rif-em',3
+listeria monocytogenes,3
+human cytomegalovirus (strain towne),3
+alphainfluenzavirus influenzae,3
+influenza a virus | influenza a virus (a/hong kong/1/1968(h3n2)),3
+drosophila melanogaster | drosophila melanogaster,3
+blattella germanica,3
+caulobacter vibrioides | caulobacter vibrioides | caulobacter vibrioides,3
+human immunodeficiency virus | homo sapiens,3
+sars coronavirus b012,3
+bos taurus | rattus norvegicus | bos taurus,3
+mayaro virus (strain brazil),3
+neopyropia tenera | neopyropia tenera,3
+severe acute respiratory syndrome coronavirus2  | severe acute respiratory syndrome coronavirus2  | severe acute respiratory syndrome coronavirus2,3
+influenza a virus (a/canada/720/2005(h2n2)) | influenza a virus (a/canada/720/2005(h2n2)),3
+homo sapiens | hepatitis b virus,3
+influenza a virus (a/okuda/1957(h2n2)),3
+human alphaherpesvirus 1 strain f,3
+rabies lyssavirus,3
+dengue virus type 2 (strain thailand/ngs-c/1944),3
+venezuelan equine encephalitis virus,3
+zika virus (strain mr 766),3
+middle east respiratory syndrome-relatedcoronavirus (isolate united kingdom/h123990006/2012),3
+influenza a virus (a/hong kong/1-4-ma21-1/1968(h3n2)),3
+saccharomyces cerevisiae s288c | saccharomyces cerevisiae s288c,3
+human sars coronavirus,3
+influenza a virus (strain a/brevigmission/1/1918 h1n1),3
+influenza a virus (a/newcaledonia/20/1999(h1n1))  | influenza a virus (a/newcaledonia/20/1999(h1n1)),3
+"human respiratory syncytial virus,enterobacteria phage t4",3
+staphylococcus aureus (strain nctc 8325 / ps47),3
+influenza a virus (a/new york/107/2003(h7n2)),3
+"homo sapiens, bos taurus | rattus rattus",3
+"respiratory syncytial virus a2, syntheticconstruct",3
+xenopus laevis | rattus norvegicus,3
+sudan ebolavirus (strainhuman/uganda/gulu/2000)  | sudan ebolavirus (strainhuman/uganda/gulu/2000),3
+neisseria meningitidis serogroup b (strainmc58),3
+human alphaherpesvirus 1 strain 17,3
+deltacoronavirus,3
+cricetulus griseus,3
+human respiratory syncytial virus a | human respiratory syncytial virus a,3
+rotavirus a,3
+"ebola virus | zaire ebolavirus, ebola virus",3
+human herpesvirus 1 (strain kos),3
+"escherichia coli k-12 | synthetic construct, thermotoga maritima(strain atcc 43589 / dsm 3109 / jcm 10099 / nbrc 100826 / msb8)",3
+androctonus australis hector,3
+lactococcus phage tuc2009,3
+lactococcus lactis phage p2,3
+neisseria meningitidis 8013,3
+bordetella pertussis,3
+"severe acute respiratory syndrome coronavirus2, escherichia phage t4, synthetic construct",3
+sulfolobus solfataricus,3
+influenza a virus (strain a/vietnam/1203/2004h5n1),3
+influenza a virus (a/california/01/2009(h1n1)) | influenza a virus (a/california/01/2009(h1n1)),3
+human respiratory syncytial virus 9320,3
+human herpesvirus 1 (strain 17),3
+human herpesvirus 2 strain 333,3
+human herpesvirus 2,3
+"homo sapiens, influenza a virus(a/indiana/10/2011(h3n2))",3
+hepatitis c virus (isolate 1),3
+"homo sapiens, escherichia coli (strain k12)",3
+plasmodium falciparum nf54,3
+trypanosoma cruzi,3
+"influenza a virus, human immunodeficiency virus1  | influenza a virus",3
+"human metapneumovirus, escherichia phage t2",3
+human alphaherpesvirus 2,3
+ebolavirus,3
+chikungunya virus | chikungunya virus | chikungunya virus,3
+homo sapiens | clostridium perfringens,3
+sfts virus hb29,3
+coxsackievirus a6 | coxsackievirus a6 | coxsackievirus a6,3
+bos taurus | mus musculus,3
+oxalobacter formigenes,3
+phleum pratense,3
+orthomarburgvirus marburgense | orthomarburgvirus marburgense,3
+h7n9 subtype,3
+influenza a virus (a/victoria/361/2011(h3n2)) | influenza a virus (a/victoria/361/2011(h3n2)),3
+hepatitis c virus genotype 1a (isolate h),3
+cupriavidus metallidurans,2
+sfts virus sd4,2
+geobacillus thermodenitrificans ng80-2 | geobacillus thermodenitrificans ng80-2,2
+juglans regia,2
+influenza a virus (a/thailand/1(kan-1)/2004(h5n1)),2
+rattus norvegicus | xenopus laevis,2
+human calicivirus,2
+enterovirus d68 | enterovirus d68,2
+staphylococcaceae,2
+sfts phlebovirus (isolatesftsv/human/china/hb29/2010),2
+aequorea victoria | bacillus subtilis subsp. subtilis str. 168,2
+candida albicans,2
+dengue virus type 2 (strain thailand/ngs-c/1944)  | dengue virus type 2 (strain thailand/ngs-c/1944)  | dengue virus type 2 (strain thailand/ngs-c/1944),2
+sudan ebolavirus | sudan ebolavirus | sudan ebolavirus,2
+salmonella enterica subsp. enterica serovartyphimurium  | salmonella enterica subsp. enterica serovartyphimurium,2
+hepatitis b virus genotype a,2
+suid alphaherpesvirus 1,2
+mycobacterium tuberculosis,2
+human herpesvirus 4 (strain b95-8),2
+felis catus,2
+unidentified monkey,2
+influenza a virus (strain swla/california/04/2009 h1n1)  | influenza a virus (strain swla/california/04/2009 h1n1),2
+mus musculus | mus musculus | mus musculus,2
+hepatitis b virus | homo sapiens,2
+peptoclostridium difficile,2
+plasmodium vivax sai-1,2
+"bos taurus | mus musculus, homo sapiens",2
+human cytomegalovirus (strain merlin) | human cytomegalovirus (strain 5508),2
+hendra virus (isolatehorse/autralia/hendra/1994),2
+thermus thermophilus (strain hb8 / atcc 27634 /dsm 579)  | thermus thermophilus (strain hb8 / atcc 27634 /dsm 579),2
+suid herpesvirus,2
+macaca mulatta | homo sapiens | homo sapiens,2
+aspergillus fumigatus af293,2
+paslahepevirus balayani,2
+paslahepevirus balayani | paslahepevirus balayani,2
+mycolicibacterium hassiacum dsm 44199,2
+human gammaherpesvirus 8,2
+leishmania donovani (strain bpk282a1),2
+lassa virus josiah | lassa virus josiah | lassa virus josiah,2
+dengue virus 2 puerto rico/pr159-s1/1969,2
+dengue virus 2 thailand/16681/84,2
+"hepacivirus c, synthetic construct",2
+escherichia coli | homo sapiens,2
+dianlovirus menglaense,2
+cricetulus griseus | cricetulus griseus,2
+dengue virus 3 | dengue virus 3,2
+rabies virus strain pasteur vaccin,2
+tick-borne encephalitis virus (strain hypr),2
+human papillomavirus type 58 | human papillomavirus type 58 | human papillomavirus type 58 | human papillomavirus type 58,2
+dendroaspis polylepis polylepis,2
+methanocaldococcus jannaschii,2
+andes orthohantavirus,2
+rhinovirus b14,2
+lyssavirus rabies,2
+influenza a virus (a/brevigmission/1/1918(h1n1))  | influenza a virus (a/brevigmission/1/1918(h1n1)),2
+pisum sativum,2
+rhodopseudomonas palustris,2
+bacteriophage sp.,2
+zika virus zikv/human/cambodia/fss13025/2010,2
+tgev virulent purdue,2
+dendraspis polylepis polylepis,2
+theileria parva strain muguga,2
+human poliovirus 3 strain sabin | human poliovirus 3 strain sabin | human poliovirus 3 strain sabin,2
+mus musculus | gallus gallus,2
+orthonairovirus haemorrhagiae,2
+"homo sapiens | influenza a virus, homo sapiens",2
+plasmodium falciparum (isolate nf54),2
+hevea brasiliensis,2
+bungarus fasciatus,2
+shigella sonnei,2
+human enterovirus d68 | human enterovirus d68,2
+staphylococcus aureus subsp. aureus n315,2
+echovirus e30 | echovirus e30,2
+staphylococcus aureus subsp. aureus tch60,2
+phage #d,2
+deinococcus radiodurans,2
+drosophila melanogaster | drosophila melanogaster | drosophila melanogaster,2
+"severe acute respiratory syndrome coronavirus2, enterobacteria phage t4  | severe acute respiratory syndrome coronavirus2, enterobacteria phage t4",2
+plasmodium falciparum k1,2
+zaire ebolavirus | zaire ebolavirus,2
+human papillomavirus type 58 | human papillomavirus type 58,2
+pseudomonas aeruginosa pao1,2
+human enterovirus d68 | human enterovirus d68 | human enterovirus d68,2
+entamoeba histolytica,2
+thermotoga maritima (strain atcc 43589 / msb8 /dsm 3109 / jcm 10099),2
+bos taurus | bos taurus | rattus norvegicus,2
+potyviridae,2
+"influenza a virus, human immunodeficiency virustype 1 group m subtype b, enterobacteria phage t4",2
+hbv genotype d3,2
+severe acute respiratory syndrome coronavirus2  | homo sapiens,2
+epstein-barr virus (strain gd1),2
+influenza a virus (strain a/usah1n1)  | influenza a virus (strain a/usah1n1),2
+"severe acute respiratory syndrome coronavirus2, human immunodeficiency virus 1",2
+varicella-zoster virus (strain oka vaccine),2
+borrelia burgdorferi (strain atcc 35210 / b31 /cip 102532 / dsm 4680),2
+centruroides noxius,2
+influenza a virus (a/nt/60/1968(h3n2)) | influenza a virus (a/nt/60/1968(h3n2)),2
+influenza a virus (a/hunan/02650/2016(h7n9),2
+enterovirus d68 | enterovirus d68 | enterovirus d68,2
+plasmodium falciparum | camelidae mixed library,2
+homo sapiens | human immunodeficiency virus 1,2
+thermus aquaticus,2
+influenza b virus | influenza b virus,2
+escherichia coli 2-156-04_s3_c3,2
+coxsackievirus b3 (strain nancy),2
+carlito syrichta,2
+influenza a virus (strain a/hong kong/1/1968h3n2)  | influenza a virus | influenza a virus,2
+influenza a virus (a/chicken/thailand/tak-01/2004(h5n1)),2
+bacillus subtilis,2
+numida meleagris,2
+influenza a virus (a/vietnam/1203/2004(h5n1)),2
+salmonella typhimurium (strain lt2 / sgsc1412 /atcc 700720),2
+"human immunodeficiency virus, escherichia coli",2
+human coronavirus emc,2
+influenza a virus (strain a/hong kong/1/1968h3n2)  | influenza a virus,2
+norovirus hu/gii-4/saga1/2006/jp,2
+dickeya chrysanthemi | dickeya chrysanthemi | dickeya chrysanthemi | dickeya chrysanthemi | dickeya chrysanthemi,2
+influenza a virus (a/reassortant/nymc x-181a(a/nymc x-157 x california/07/2009)(h1n1)),2
+escherichia coli dh5[alpha],2
+influenza a virus (a/jeju/2279/2007(h1n1)),2
+puumala orthohantavirus,2
+lactobacillus delbrueckii subsp. bulgaricusatcc 11842 = jcm 1002  | lactobacillus delbrueckii subsp. bulgaricusatcc 11842 = jcm 1002,2
+ebola virus | zaire ebolavirus | ebola virus,2
+saccharomyces cerevisiae (strain atcc 204508 /s288c)  | saccharomyces cerevisiae (strain atcc 204508 /s288c)  | saccharomyces cerevisiae (strain atcc 204508 /s288c),2
+chaetomium thermophilum (strain dsm 1495 / cbs144.50 / imi 039719)  | chaetomium thermophilum (strain dsm 1495 / cbs144.50 / imi 039719)  | chaetomium thermophilum | chaetomium thermophilum (strain dsm 1495 / cbs144.50 / imi 039719),2
+human cytomegalovirus | human cytomegalovirus,2
+"recombinant hepatitis c virus h77(5'utr-ns2)/jfh1_v787a,q1247l",2
+hendra virus,2
+influenza a virus (strain a/brevigmission/1/1918 h1n1)  | influenza a virus (strain a/brevigmission/1/1918 h1n1),2
+tick-borne encephalitis virus,2
+anopheles stephensi,2
+hepatovirus a,2
+adeno-associated virus | adeno-associated virus | adeno-associated virus | adeno-associated virus | adeno-associated virus,2
+geobacillus thermodenitrificans (strain ng80-2)  | geobacillus thermodenitrificans (strain ng80-2),2
+adeno-associated virus | adeno-associated virus | adeno-associated virus | adeno-associated virus,2
+streptococcus pneumoniae tigr4,2
+thermus thermophilus hb8,2
+ebolavirus | ebolavirus,2
+unidentified,2
+archaeoglobus fulgidus,2
+photobacterium profundum ss9 | photobacterium profundum ss9,2
+betacoronavirus england 1,2
+metarhizium acridum (strain cqma 102),2
+"homo sapiens, clostridium pasteurianum",2
+"mus musculus, muromegalovirus g4",2
+"escherichia coli, staphylococcus aureus,streptococcus sp.",2
+streptomyces coelicolor,2
+human immunodeficiency virus | human immunodeficiency virus,2
+chlamydia pneumoniae,2
+hepatitis b virus | hepatitis b virus,2
+influenza a virus (a/hong kong/482/97(h5n1)),2
+mycoplasma genitalium,2
+ruminococcus gnavus,2
+crimean-congo hemorrhagic fever virus (strainnigeria/ibar10200/1970),2
+staphylococcus aureus subsp. aureus,2
+plasmodium (plasmodium),2
+powassan virus,2
+ceratogyrus marshalli,2
+poliovirus 3 | poliovirus 3,2
+influenza a virus (a/puerto rico/8/1934(h1n1)),2
+rattus norvegicus | mus musculus,2
+staphylococcus aureus (strain bovine rf122 /et3-1),2
+"escherichia coli (strain k12), meleagrisgallopavo",2
+homo sapiens | homo sapiens | homo sapiens | homo sapiens | homo sapiens,1
+thermotoga maritima msb8,1
+cercopithecine herpesvirus 1,1
+human herpesvirus 3,1
+"yokenella regensburgei, escherichia coli",1
+neopyropia tenera,1
+ophiophagus hannah,1
+colinus virginianus,1
+ciona robusta | ciona robusta,1
+"homo sapiens | bos taurus | homo sapiens, synthetic construct",1
+epstein-barr virus | epstein-barr virus,1
+human papillomavirus 45 | human papillomavirus 45 | human papillomavirus 45,1
+human herpesvirus 4 strain b95-8,1
+gallus gallus | mus musculus | mus musculus,1
+"escherichia coli, homo sapiens | homo sapiens",1
+staphylococcus aureus subsp. aureus nctc 8325,1
+influenza a virus (a/california/01/2009(h1n1)),1
+foot-and-mouth disease virus asia 1 | foot-and-mouth disease virus asia 1 | foot-and-mouth disease virus asia 1,1
+toxoplasma gondii | finegoldia magna,1
+salmonella enterica subsp. enterica serovartyphimurium,1
+ixodes scapularis | homo sapiens | homo sapiens,1
+chlorella virus,1
+"arabidopsis thaliana, escherichia coli",1
+poliovirus 1 | poliovirus 1,1
+human rhinovirus 2,1
+"saccharomyces cerevisiae s288c, syntheticconstruct",1
+"homo sapiens, pyrococcus abyssi ge5",1
+foot-and-mouth disease virus - type c | foot-and-mouth disease virus - type c | foot-and-mouth disease virus - type c,1
+influenza a virus (a/x-31(h3n2)) | influenza a virus (a/x-31(h3n2)),1
+human astrovirus 2,1
+echis carinatus,1
+phasianus colchicus,1
+rattus,1
+foot-and-mouth disease virus o,1
+human poliovirus 1 strain sabin | human poliovirus 1 strain sabin,1
+severe acute respiratory syndrome coronavirus | severe acute respiratory syndrome coronavirus,1
+human metapneumovirus | human metapneumovirus,1
+alphapapillomavirus 10 | alphapapillomavirus 10 | alphapapillomavirus 10 | alphapapillomavirus 10,1
+human rhinovirus 14 | human rhinovirus 14,1
+rotavirus a | rotavirus a,1
+rotavirus a | rotavirus a | rotavirus a,1
+adeno-associated virus | adeno-associated virus | adeno-associated virus,1
+spodoptera | spodoptera | spodoptera,1
+spodoptera,1
+orthohantavirus hantanense,1
+clostridioides difficile 342,1
+oleidesulfovibrio alaskensis g20,1
+"homo sapiens, escherichia coli | homo sapiens",1
+homo sapiens | rattus norvegicus | rattus norvegicus,1
+bos taurus | rattus rattus,1
+schistosoma mansoni,1
+equus caballus,1
+homo sapiens | mycobacterium tuberculosis,1
+homo sapiens | homo sapiens | mus musculus,1
+influenza b virus (b/malaysia/2506/2004),1
+hbv genotype d3 | hbv genotype d3,1
+influenza b virus (b/malaysia/2506/2004) | influenza b virus (b/malaysia/2506/2004),1
+human immunodeficiency virus type 1(clone 12),1
+rattus norvegicus | homo sapiens | homo sapiens,1
+respiratory syncytial virus a2 | respiratory syncytial virus a2,1
+entamoeba histolytica hm-1,1
+mammarenavirus machupoense,1
+plasmodium falciparum hb3,1
+tolypocladium inflatum,1
+mycolicibacterium chubuense,1
+escherichia coli bl21,1
+poliovirus 2 | poliovirus 2,1
+"streptomyces coelicolor, streptomyces lividans",1
+escherichia phage qbeta | escherichia phage qbeta | escherichia phage qbeta | escherichia phage qbeta | escherichia phage qbeta,1
+saccharomyces cerevisiae | saccharomyces cerevisiae | saccharomyces cerevisiae | saccharomyces cerevisiae,1
+"bos taurus | rattus norvegicus, leptolinea tardivitalis",1
+saccharomyces cerevisiae | saccharomyces cerevisiae | saccharomyces cerevisiae | saccharomyces cerevisiae | saccharomyces cerevisiae,1
+henipavirus hendraense,1
+mycobacteroides abscessus,1
+influenza a virus (a/california/04/2009(h1n1)) | influenza a virus (a/california/04/2009(h1n1)) | influenza a virus (a/california/04/2009(h1n1)),1
+"homo sapiens | escherichia coli, homo sapiens",1
+thermothelomyces thermophilus atcc 42464,1
+pea enation mosaic virus 2,1
+fontimonas thermophila,1
+zaire ebolavirus (strain kikwit-95),1
+homo sapiens | meleagris gallopavo,1
+mycolicibacterium thermoresistibile,1
+influenza a virus (strain a/northernterritory/60/1968 h3n2)  | influenza a virus (strain a/hong kong/1/1968h3n2),1
+xenopus laevis | xenopus laevis | xenopus laevis,1
+influenza a virus (strain a/japan/305/1957h2n2),1
+deinococcus geothermalis (strain dsm 11300),1
+lake victoria marburgvirus (strain popp-67),1
+streptococcus sp. group g,1
+plasmodium falciparum | lama glama | lama glama,1
+homo sapiens | glycine max,1
+human parvovirus b19,1
+sars coronavirus | sars coronavirus,1
+influenza a virus (a/minnesota/11/2010(h3n2)),1
+"enterobacteria phage rb59, homo sapiens",1
+human parainfluenza virus 3 | human parainfluenza virus 3 | human parainfluenza virus 3,1
+coxsackievirus a16 | coxsackievirus a16 | coxsackievirus a16 | coxsackievirus a16 | coxsackievirus a16,1
+coxsackievirus a16 | coxsackievirus a16 | coxsackievirus a16,1
+porcine circovirus 2,1
+grapevine fanleaf virus,1
+staphylococcus aureus (strain nctc 8325),1
+plasmodium falciparum (isolate 7g8),1
+|,1
+"saccharomyces cerevisiae (strain atcc 204508 /s288c), homo sapiens",1
+homo sapiens | homo sapiens | triticum aestivum,1
+streptococcus pneumoniae,1
+foot-and-mouth disease virus - type a | foot-and-mouth disease virus - type a,1
+haloarcula marismortui,1
+influenza a virus (a/anhui/1-balf_rg45/2013(h7n9))  | influenza a virus (a/anhui/1-balf_rg45/2013(h7n9)),1
+echovirus e30 | echovirus e30 | echovirus e30,1
+plasmodium knowlesi,1
+"homo sapiens, danio rerio",1
+sudan virus - boniface,1
+hepatitis c virus subtype 2a,1
+human immunodeficiency virus type 1 group msubtype b,1
+mesocricetus auratus,1
+human herpesvirus 3 strain oka vaccine | human herpesvirus 3 strain oka vaccine,1
+"human respiratory syncytial virus a,escherichia phage t2  | human respiratory syncytial virus a (straina2)",1
+mayaro virus (strain brazil) | mayaro virus (strain brazil),1
+"human metapneumovirus, human immunodeficiencyvirus 1",1
+cytomegalovirus,1
+salmonella enterica subsp. enterica serovartyphi str. ct18  | salmonella enterica subsp. enterica serovartyphi str. ct18,1
+odocoileus hemionus,1
+homo sapiens | human immunodeficiency virus 1 | human immunodeficiency virus 1,1
+cervus elaphus nelsoni,1
+homo sapiens | escherichia coli,1
+tick-borne encephalitis virus european subtype(strain neudoerfl),1
+louping ill virus,1
+human immunodeficiency virus type 1 (malisolate),1
+coxsackievirus a10 | coxsackievirus a10 | coxsackievirus a10,1
+"influenza a virus, human immunodeficiency virus1",1
+enterovirus a71 | enterovirus a71,1
+influenza a virus (straina/duck/czechoslovakia/1956 h4n6)  | influenza a virus (straina/duck/czechoslovakia/1956 h4n6),1
+influenza a virus (straina/duck/czechoslovakia/1956 h4n6)  | influenza a virus (straina/duck/czechoslovakia/1956 h4n6)  | influenza a virus (straina/duck/czechoslovakia/1956 h4n6),1
+influenza a virus (strain a/aichi/2/1968 h3n2) | influenza a virus (strain a/aichi/2/1968 h3n2),1
+severe fever with thrombocytopenia virus,1
+coxsackievirus a6,1
+norovirus gii.10 | norovirus gii.10,1
+hepatitis a virus,1
+"aquifex aeolicus, aquifex aeolicus (strainvf5)",1
+epstein-barr virus (strain b95-8),1
+influenza a virus(a/swine/minnesota/a01134337/2010(h3n2)),1
+reston ebolavirus,1
+influenza a virus (a/wsn/1933(h1n1)),1
+"human respiratory syncytial virus a,enterobacteria phage ox2",1
+dermatophagoides farinae,1
+human cytomegalovirus (strain ad169) | human cytomegalovirus (strain merlin),1
+dengue virus type 1 (strain nauru/westpac/1974),1
+influenza a virus(a/chicken/henan/109/2013(h7n9)),1
+enterovirus d68,1
+human respiratory syncytial virus | human respiratory syncytial virus,1
+pseudomonas aeruginosa pao1 | pseudomonas aeruginosa pao1,1
+zaire ebolavirus | zaire ebolavirus | zaire ebolavirus,1
+aequorea victoria | bacillus subtilis (strain 168),1
+influenza a virus(a/turkey/italy/214845/2002(h7n3))  | influenza a virus(a/turkey/italy/214845/2002(h7n3)),1
+norwalk virus (strain gi/human/unitedstates/norwalk/1968)  | norwalk virus (strain gi/human/unitedstates/norwalk/1968),1
+human parechovirus 3 | human parechovirus 3,1
+bk polyomavirus | bk polyomavirus,1
+thermothelomyces thermophila (strain atcc 42464/ bcrc 31852 / dsm 1799),1
+influenza b virus (b/brisbane/60/2008) | influenza b virus (b/brisbane/60/2008),1
+pediculus humanus corporis | homo sapiens,1
+bundibugyo ebolavirus | bundibugyo ebolavirus | bundibugyo ebolavirus,1
+colobus angolensis palliatus,1
+norovirus 13-bh-1/2013/gii.17,1
+"human respiratory syncytial virus a (straina2), human immunodeficiency virus 1, unidentified",1
+poliovirus type 1,1
+"influenza b virus, human immunodeficiency virus1",1
+clostridium botulinum (strain hall / atcc 3502/ nctc 13319 / type a),1
+human herpesvirus 4 | human herpesvirus 4 | human herpesvirus 4,1
+"human adenovirus c serotype 5, human adenovirus5",1
+marburg marburgvirus,1
+reovirus type 1 (strain lang) | reovirus type 1 (strain lang),1
+campylobacter jejuni | campylobacter jejuni,1
+influenza a virus (a/solomon islands/3/2006(egg passage)(h1n1)),1
+salmonella enterica subsp. enterica serovartyphi str. ct18  | salmonella enterica subsp. enterica serovartyphi str. ct18  | salmonella enterica subsp. enterica serovartyphi str. ct18,1
+zika virus zikv/h.sapiens/frenchpolynesia/10087pf/2013  | zika virus zikv/h.sapiens/frenchpolynesia/10087pf/2013  | zika virus zikv/h.sapiens/frenchpolynesia/10087pf/2013,1
+human poliovirus 1 mahoney | human poliovirus 1 mahoney | human poliovirus 1 mahoney,1
+mus musculus | homo sapiens,1
+"spodoptera frugiperda, homo sapiens | homo sapiens",1
+neisseria meningitidis mc58,1
+homo sapiens | homo sapiens | rattus norvegicus,1
+venezuelan equine encephalitis virus | venezuelan equine encephalitis virus | venezuelan equine encephalitis virus,1
+zika virus zikv/h.sapiens/frenchpolynesia/10087pf/2013  | zika virus zikv/h.sapiens/frenchpolynesia/10087pf/2013,1
+human poliovirus 1 strain sabin | human poliovirus 1 strain sabin | human poliovirus 1 strain sabin,1
+human poliovirus 2 strain sabin | human poliovirus 2 strain sabin | human poliovirus 2 strain sabin,1
+poliovirus 2 | poliovirus 2 | poliovirus 2,1
+simian rotavirus,1
+foot-and-mouth disease virus a | foot-and-mouth disease virus a,1
+simian immunodeficiency virus | simian immunodeficiency virus | simian immunodeficiency virus,1
+homo sapiens | lama glama,1
+phage 13,1
+coxsackievirus b3,1
+human parainfluenza 3 virus (strain nih 47885),1
+naja nivea,1
+lagovirus,1
+sin nombre orthohantavirus,1
+west nile virus | west nile virus,1
+peptide display vector fth1,1
+influenza a virus(a/swine/guangdong/104/2013(h1n1))  | influenza a virus(a/swine/guangdong/104/2013(h1n1)),1
+homo sapiens | homo sapiens | bos taurus,1
+epstein-barr virus (strain gd1) | epstein-barr virus (strain gd1) | epstein-barr virus (strain gd1),1
+middle east respiratory syndrome-relatedcoronavirus  | middle east respiratory syndrome-relatedcoronavirus,1
+hepatitis b virus genotype c | homo sapiens,1
+mycoplasmoides pneumoniae m129,1
+toscana virus,1
+dendroaspis polylepis,1
+"escherichia coli, homo sapiens, discosoma sp.",1
+hepatitis e virus rat/r63/deu/2009 | hepatitis e virus rat/r63/deu/2009,1
+aspergillus fumigatus,1
+setaria italica,1
+"human respiratory syncytial virus a (straina2), enterobacteria phage t4  | human respiratory syncytial virus a (straina2), enterobacteria phage t4",1
+influenza a virus (a/long-tailedduck/wisconsin/10os3912/2010(h14n6))  | influenza a virus (a/long-tailedduck/wisconsin/10os3912/2010(h14n6)),1
+"escherichia coli k-12, staphylococcus aureus",1
+"escherichia coli o157aureus, staphylococcus aureus subsp. aureus mu50, streptococcus sp. 'group g'",1
+"rattus norvegicus, muromegalovirus g4",1
+betacoronavirus sp.,1
+norovirus gi.4 | norovirus gi.4,1
+norovirus gi.4,1
+"mus musculus domesticus, homo sapiens | homo sapiens | homo sapiens",1
+influenza a virus (a/flat-facedbat/peru/033/2010(h18n11))  | influenza a virus (a/flat-facedbat/peru/033/2010(h18n11)),1
+influenza a virus (a/long-tailedduck/wisconsin/10os3912/2010(h14n6))  | influenza a virus (a/long-tailedduck/wisconsin/10os3912/2010(h14n6))  | influenza a virus (a/long-tailedduck/wisconsin/10os3912/2010(h14n6)),1
+adeno-associated virus - 2,1
+arabidopsis | arabidopsis,1
+saccharomyces cerevisiae by4743,1
+enterococcus faecalis | enterococcus faecalis,1
+argentinian mammarenavirus,1
+machupo mammarenavirus,1
+lactococcus phage tp901-1 | lactococcus phage tp901-1,1
+haemophilus influenzae,1
+"severe acute respiratory syndrome coronavirus2, bat coronavirus rp3/2004",1
+vibrio cholerae rc385,1
+human herpesvirus 5,1
+neisseria gonorrhoeae,1
+neisseria gonorrhoeae | neisseria gonorrhoeae,1
+rattus norvegicus |,1
+zaire ebolavirus (strain eckron-76),1
+thermococcus kodakarensis kod1,1
+homo sapiens | rattus norvegicus | homo sapiens,1
+bat coronavirus hku4,1
+vaccinia virus | vaccinia virus,1
+canine parvovirus type 2,1
+tick-borne encephalitis virus (westernsubtype),1
+tick-borne encephalitis virus far easternsubtype,1
+sars coronavirus ma15,1
+streptococcus pneumoniae serotype 2 (strain d39/ nctc 7466),1
+hepatitis c virus (isolate glasgow),1
+human immunodeficiency virus type 1 (isolateyu2),1
+human enterovirus,1
+"ebola virus - mayinga, zaire, 1976 | ebola virus - mayinga, zaire, 1976",1
+canine parvovirus,1
+clostridium botulinum a str. hall | clostridium botulinum a str. hall,1
+nipah henipavirus | nipah henipavirus,1
+lassa virus | lassa virus | lassa virus,1
+hiv-1 | homo sapiens,1
+bat sars-like coronavirus wiv1,1
+bat coronavirus ratg13,1
+bat sars-like coronavirus rsshc014,1
+influenza a virus (a/sydney/5/1997(h3n2)),1
+cricetulus migratorius,1
+trypanosoma brucei | trypanosoma brucei,1
+"human immunodeficiency virus, syntheticconstruct, thermomonospora fusca",1
+lake victoria marburgvirus (strain ravn-87),1
+staphylococcaceae | staphylococcaceae,1
+|  |,1
+zaire ebolavirus (strain gabon-94) | zaire ebolavirus (strain gabon-94),1
+zaire ebolavirus | zaire ebolavirus (strain gabon-94),1
+streptomyces,1
+clostridioides difficile r20291,1
+hiv whole-genome vector aa1305#18 | hiv whole-genome vector aa1305#18,1
+homo sapiens | triticum aestivum | homo sapiens,1

@@ -1,0 +1,38 @@
+{
+  "n_antigen_complexes": 15591,
+  "antigen_class_counts": {
+    "other_protein": 7734,
+    "viral": 6258,
+    "immune_receptor": 505,
+    "enzyme": 433,
+    "unknown_or_other": 220,
+    "cancer_associated": 197,
+    "bacterial": 142,
+    "nucleic_acid_or_carbohydrate": 102
+  },
+  "antigen_class_entropy_bits": 1.609823725323466,
+  "antigen_class_gini": 0.6826133666859086,
+  "classification_method": "coarse keyword heuristic over antigen_name + antigen_type \u2014 see ANTIGEN_CLASS_KEYWORDS in this script; stated as a limitation, not authoritative.",
+  "antigen_class_vs_therapeutic_crosstab": {
+    "false": {
+      "bacterial": 141,
+      "cancer_associated": 171,
+      "enzyme": 428,
+      "immune_receptor": 469,
+      "nucleic_acid_or_carbohydrate": 102,
+      "other_protein": 7634,
+      "unknown_or_other": 218,
+      "viral": 6220
+    },
+    "true": {
+      "bacterial": 1,
+      "cancer_associated": 26,
+      "enzyme": 5,
+      "immune_receptor": 36,
+      "nucleic_acid_or_carbohydrate": 0,
+      "other_protein": 100,
+      "unknown_or_other": 2,
+      "viral": 38
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "sabdab_clonotype_proxy": {
+    "status": "OK",
+    "label": "NON-STANDARD PROXY -- NOT a real clonotype statistic. Grouping key = (heavy_subclass family, CDR-H3 90%-identity cluster_rep). Not comparable to OAS's germline-V + germline-J + CDR3 clonotype definition; OAS has no J-gene data and SAbDab germline is family-level only, so no real clonotype statistic is computable for either side on a shared definition. Report side by side with Section A's oas_heavy_clonotype_diversity for context only, never as a directly comparable number.",
+    "n_entries": 19848,
+    "n_unique_proxy_groups": 5466,
+    "unique_fraction": 0.2753929866989117,
+    "top10_largest_groups": {
+      "unknown||6crk_Hh_agA _ B _ G_m0": 644,
+      "IGHV3||6oya_NNA_agA _ B_m0": 372,
+      "IGHV1||1iga_AC_ag_m0": 127,
+      "IGHV4||1ots_CD_agA_m0": 90,
+      "IGHV14||2vc2_HL_agA_m0": 83,
+      "IGHV1||6ww2_KNA_agNA_m0": 81,
+      "IGHV1||1k4c_AB_agC_m0": 80,
+      "IGHV2||1yy8_BA_ag_m0": 70,
+      "IGHV4||3jcb_CB_agA_m0": 67,
+      "IGHV1||5o8f_KNA_agA_m0": 66
+    }
+  },
+  "oas_vs_sabdab_h3_aa_composition": {
+    "status": "OK",
+    "vocab_used": "DEFAULT_OAS_VOCAB, verified 2026-06-28 against the real tokenizer's build_vocab() (5 special tokens [PAD,UNK,START,END,MASK] at IDs 0-4, amino acids A-Y at IDs 5-24). An earlier guessed vocab (4 special tokens, amino acids starting at ID 4) was off by one and silently produced a wrong-but-plausible-looking result -- caught only because alanine came out at exactly 0%, which should never happen for a common amino acid. If this tokenizer's vocab is ever rebuilt with a different special-token set, re-verify this mapping before trusting this section again.",
+    "n_sabdab_h3_sequences": 19848,
+    "n_oas_sampled": 2000000,
+    "n_oas_isolation_failures": 0,
+    "sabdab_total_residues": 293820,
+    "oas_total_residues": 29911831,
+    "per_aa_comparison": [
+      {
+        "aa": "A",
+        "sabdab_count": 30494,
+        "sabdab_frac": 0.10378463004560615,
+        "oas_count": 3029679,
+        "oas_frac": 0.10128697905521063,
+        "fold_sabdab_over_oas": 1.0246591517852859
+      },
+      {
+        "aa": "C",
+        "sabdab_count": 2763,
+        "sabdab_frac": 0.009403716561159894,
+        "oas_count": 369924,
+        "oas_frac": 0.012367146631712381,
+        "fold_sabdab_over_oas": 0.7603788360563681
+      },
+      {
+        "aa": "D",
+        "sabdab_count": 29713,
+        "sabdab_frac": 0.10112654005853924,
+        "oas_count": 3109507,
+        "oas_frac": 0.10395575583453918,
+        "fold_sabdab_over_oas": 0.9727844239764554
+      },
+      {
+        "aa": "E",
+        "sabdab_count": 7362,
+        "sabdab_frac": 0.025056156830712682,
+        "oas_count": 707432,
+        "oas_frac": 0.023650574917998168,
+        "fold_sabdab_over_oas": 1.0594311942770094
+      },
+      {
+        "aa": "F",
+        "sabdab_count": 16970,
+        "sabdab_frac": 0.057756449526921244,
+        "oas_count": 1665012,
+        "oas_frac": 0.05566399462473561,
+        "fold_sabdab_over_oas": 1.03759081460632
+      },
+      {
+        "aa": "G",
+        "sabdab_count": 29851,
+        "sabdab_frac": 0.10159621536995439,
+        "oas_count": 3207315,
+        "oas_frac": 0.10722563255990582,
+        "fold_sabdab_over_oas": 0.9474993333631645
+      },
+      {
+        "aa": "H",
+        "sabdab_count": 4599,
+        "sabdab_frac": 0.015652440269552786,
+        "oas_count": 637784,
+        "oas_frac": 0.021322131700998177,
+        "fold_sabdab_over_oas": 0.7340935929412739
+      },
+      {
+        "aa": "I",
+        "sabdab_count": 6143,
+        "sabdab_frac": 0.020907358246545504,
+        "oas_count": 765546,
+        "oas_frac": 0.025593418202984632,
+        "fold_sabdab_over_oas": 0.8169037086303441
+      },
+      {
+        "aa": "K",
+        "sabdab_count": 5041,
+        "sabdab_frac": 0.01715676264379552,
+        "oas_count": 591777,
+        "oas_frac": 0.019784044647751586,
+        "fold_sabdab_over_oas": 0.8672019776171173
+      },
+      {
+        "aa": "L",
+        "sabdab_count": 11402,
+        "sabdab_frac": 0.03880607174460554,
+        "oas_count": 1306805,
+        "oas_frac": 0.04368856590557763,
+        "fold_sabdab_over_oas": 0.8882432036903104
+      },
+      {
+        "aa": "M",
+        "sabdab_count": 5411,
+        "sabdab_frac": 0.018416037029473826,
+        "oas_count": 485735,
+        "oas_frac": 0.01623889222963315,
+        "fold_sabdab_over_oas": 1.1340697856143023
+      },
+      {
+        "aa": "N",
+        "sabdab_count": 7360,
+        "sabdab_frac": 0.025049349942141447,
+        "oas_count": 729018,
+        "oas_frac": 0.024372229169120407,
+        "fold_sabdab_over_oas": 1.0277824719406032
+      },
+      {
+        "aa": "P",
+        "sabdab_count": 10247,
+        "sabdab_frac": 0.034875093594717854,
+        "oas_count": 1206737,
+        "oas_frac": 0.040343133792110554,
+        "fold_sabdab_over_oas": 0.8644616894272595
+      },
+      {
+        "aa": "Q",
+        "sabdab_count": 3579,
+        "sabdab_frac": 0.012180927098223403,
+        "oas_count": 389282,
+        "oas_frac": 0.013014315305539136,
+        "fold_sabdab_over_oas": 0.9359637301117926
+      },
+      {
+        "aa": "R",
+        "sabdab_count": 23969,
+        "sabdab_frac": 0.08157715608195494,
+        "oas_count": 2528916,
+        "oas_frac": 0.08454567692629715,
+        "fold_sabdab_over_oas": 0.9648885554854564
+      },
+      {
+        "aa": "S",
+        "sabdab_count": 21439,
+        "sabdab_frac": 0.07296644203934381,
+        "oas_count": 2280502,
+        "oas_frac": 0.07624080251055176,
+        "fold_sabdab_over_oas": 0.9570523871288634
+      },
+      {
+        "aa": "T",
+        "sabdab_count": 13477,
+        "sabdab_frac": 0.045868218637260906,
+        "oas_count": 1262918,
+        "oas_frac": 0.04222135381815978,
+        "fold_sabdab_over_oas": 1.0863748906491146
+      },
+      {
+        "aa": "V",
+        "sabdab_count": 14314,
+        "sabdab_frac": 0.048716901504322375,
+        "oas_count": 1633602,
+        "oas_frac": 0.05461390845649001,
+        "fold_sabdab_over_oas": 0.8920237148589049
+      },
+      {
+        "aa": "W",
+        "sabdab_count": 7712,
+        "sabdab_frac": 0.026247362330678647,
+        "oas_count": 706189,
+        "oas_frac": 0.02360901945454292,
+        "fold_sabdab_over_oas": 1.1117514804549857
+      },
+      {
+        "aa": "Y",
+        "sabdab_count": 41974,
+        "sabdab_frac": 0.1428561704444898,
+        "oas_count": 3298151,
+        "oas_frac": 0.11026242425614133,
+        "fold_sabdab_over_oas": 1.29560157422834
+      }
+    ]
+  }
+}

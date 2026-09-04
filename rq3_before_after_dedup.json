@@ -1,0 +1,104 @@
+{
+  "dedup_method": "one representative per CDR-H3 MMseqs2 cluster (min_seq_id=0.9), preferring has_antigen=True, deterministic pdb_id tie-break",
+  "before": {
+    "n_antibodies": 19848,
+    "length_entropy_bits": 4.120741694178953,
+    "length_normalized_entropy": 0.8241483388357906,
+    "length_gini": 0.5835474607013301,
+    "length_mean": 14.803506650544135,
+    "heavy_germline_entropy_bits": 2.432782076842797,
+    "heavy_germline_gini": 0.7078367017907525,
+    "heavy_germline_n_unique": 14,
+    "antigen_cluster_entropy_bits": 8.733667083648166,
+    "antigen_cluster_gini": 0.715413213847923,
+    "antigen_cluster_n_unique": 2292,
+    "therapeutic_fraction": 0.015568319226118501
+  },
+  "after": {
+    "n_antibodies": 5365,
+    "length_entropy_bits": 4.161132941649891,
+    "length_normalized_entropy": 0.8399208834187165,
+    "length_gini": 0.5558007395604726,
+    "length_mean": 14.431127679403541,
+    "heavy_germline_entropy_bits": 2.3753481898781694,
+    "heavy_germline_gini": 0.7148848355744908,
+    "heavy_germline_n_unique": 14,
+    "antigen_cluster_entropy_bits": 9.256888548261,
+    "antigen_cluster_gini": 0.5350960097352624,
+    "antigen_cluster_n_unique": 1741,
+    "therapeutic_fraction": 0.028704566635601118
+  },
+  "delta": {
+    "n_antibodies": {
+      "before": 19848,
+      "after": 5365,
+      "reduction_fraction": 0.729695687222894
+    },
+    "length_entropy_bits": {
+      "before": 4.120741694178953,
+      "after": 4.161132941649891,
+      "absolute_delta": 0.040391247470937586,
+      "relative_delta": 0.009801936269869842
+    },
+    "length_normalized_entropy": {
+      "before": 0.8241483388357906,
+      "after": 0.8399208834187165,
+      "absolute_delta": 0.015772544582925874,
+      "relative_delta": 0.019137992324545
+    },
+    "length_gini": {
+      "before": 0.5835474607013301,
+      "after": 0.5558007395604726,
+      "absolute_delta": -0.027746721140857522,
+      "relative_delta": -0.0475483538348542
+    },
+    "length_mean": {
+      "before": 14.803506650544135,
+      "after": 14.431127679403541,
+      "absolute_delta": -0.37237897114059315,
+      "relative_delta": -0.025154781223873438
+    },
+    "heavy_germline_entropy_bits": {
+      "before": 2.432782076842797,
+      "after": 2.3753481898781694,
+      "absolute_delta": -0.05743388696462759,
+      "relative_delta": -0.023608315562388488
+    },
+    "heavy_germline_gini": {
+      "before": 0.7078367017907525,
+      "after": 0.7148848355744908,
+      "absolute_delta": 0.007048133783738253,
+      "relative_delta": 0.0099572878404118
+    },
+    "heavy_germline_n_unique": {
+      "before": 14,
+      "after": 14,
+      "absolute_delta": 0,
+      "relative_delta": 0.0
+    },
+    "antigen_cluster_entropy_bits": {
+      "before": 8.733667083648166,
+      "after": 9.256888548261,
+      "absolute_delta": 0.523221464612833,
+      "relative_delta": 0.05990856527980645
+    },
+    "antigen_cluster_gini": {
+      "before": 0.715413213847923,
+      "after": 0.5350960097352624,
+      "absolute_delta": -0.1803172041126606,
+      "relative_delta": -0.25204623093667244
+    },
+    "antigen_cluster_n_unique": {
+      "before": 2292,
+      "after": 1741,
+      "absolute_delta": -551,
+      "relative_delta": -0.24040139616055847
+    },
+    "therapeutic_fraction": {
+      "before": 0.015568319226118501,
+      "after": 0.028704566635601118,
+      "absolute_delta": 0.013136247409482616,
+      "relative_delta": 0.8437807073896795
+    }
+  }
+}

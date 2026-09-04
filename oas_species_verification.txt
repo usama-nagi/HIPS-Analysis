@@ -1,0 +1,8 @@
+human_heavy (13265 files): {'human': 13265}
+human_light (1168 files): {'human': 1168}
+paired (580 files): {'human': 580}
+
+=== OVERALL ===
+{'human': 15013}
+
+Total files scanned: 15013

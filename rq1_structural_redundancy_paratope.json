@@ -1,0 +1,78 @@
+{
+  "antigen_redundancy_reused_from_existing_pipeline": {
+    "n_antigen_complexes": 15591,
+    "n_unique_antigen_clusters": 2292,
+    "gini": 0.715413213847923,
+    "top10_cluster_dominance_fraction": 0.29921108331729845,
+    "note": "Reuses antigen_cluster_id already computed by assign_antigen_clusters.py (MMseqs2, 70% identity) \u2014 not recomputed here."
+  },
+  "paratope_composition": {
+    "n_antigen_complexes_evaluated": 15591,
+    "n_with_zero_interface_residues_in_h3": 110,
+    "full_h3_aa_composition": {
+      "A": 23975,
+      "R": 19045,
+      "L": 9141,
+      "T": 10932,
+      "V": 11752,
+      "E": 5789,
+      "G": 23442,
+      "M": 4288,
+      "D": 23512,
+      "Y": 33446,
+      "Q": 2862,
+      "S": 17504,
+      "P": 8439,
+      "I": 5056,
+      "F": 13791,
+      "N": 5890,
+      "W": 6190,
+      "H": 3579,
+      "K": 3843,
+      "C": 2452
+    },
+    "paratope_h3_aa_composition": {
+      "L": 7701,
+      "T": 9350,
+      "V": 8153,
+      "E": 5423,
+      "G": 21287,
+      "A": 14131,
+      "R": 16140,
+      "D": 18641,
+      "Q": 2467,
+      "Y": 28859,
+      "S": 16019,
+      "P": 7496,
+      "I": 4469,
+      "F": 11346,
+      "N": 5249,
+      "M": 2954,
+      "W": 5902,
+      "H": 2959,
+      "K": 3096,
+      "C": 2350
+    }
+  },
+  "cdrh3_redundancy": {
+    "min_seq_id_threshold": 0.9,
+    "n_sequences": 19848,
+    "n_unique_clusters": 5365,
+    "n_singleton_clusters": 1913,
+    "singleton_fraction": 0.3565703634669152,
+    "compression_ratio": 3.699534016775396,
+    "top10_largest_clusters": {
+      "6crk_Hh_agA _ B _ G_m0": 649,
+      "6oya_NNA_agA _ B_m0": 373,
+      "1iga_AC_ag_m0": 127,
+      "1ots_CD_agA_m0": 96,
+      "2vc2_HL_agA_m0": 83,
+      "3jcb_CB_agA_m0": 82,
+      "6ww2_KNA_agNA_m0": 81,
+      "1k4c_AB_agC_m0": 80,
+      "4r26_HL_ag_m0": 74,
+      "4jqi_HL_agA _ V_m0": 72
+    },
+    "exact_duplicate_fraction": 0.8983272873841193
+  }
+}

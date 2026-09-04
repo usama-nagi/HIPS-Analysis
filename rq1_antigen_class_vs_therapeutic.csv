@@ -1,0 +1,9 @@
+antigen_class,False,True
+bacterial,141,1
+cancer_associated,171,26
+enzyme,428,5
+immune_receptor,469,36
+nucleic_acid_or_carbohydrate,102,0
+other_protein,7634,100
+unknown_or_other,218,2
+viral,6220,38

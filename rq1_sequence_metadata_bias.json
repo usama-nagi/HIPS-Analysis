@@ -1,0 +1,210 @@
+{
+  "n_antibodies_analyzed": 19848,
+  "cdr3_length_window": [
+    3,
+    35
+  ],
+  "length": {
+    "mean": 14.803506650544135,
+    "median": 14.0,
+    "std": 4.403798773866435,
+    "min": 3,
+    "max": 35,
+    "entropy_bits": 4.120741694178954,
+    "normalized_entropy": 0.8241483388357909,
+    "gini": 0.5835474607013301
+  },
+  "heavy_germline_family": {
+    "n_unique_families": 14,
+    "entropy_bits": 2.432782076842797,
+    "normalized_entropy": 0.6389690813295787,
+    "gini": 0.7078367017907525,
+    "top5": {
+      "IGHV1": 7986,
+      "IGHV3": 5454,
+      "unknown": 2016,
+      "IGHV4": 1592,
+      "IGHV5": 1004
+    },
+    "top5_fraction_of_total": 0.9095122934300686
+  },
+  "light_germline_family": {
+    "n_unique_families": 36,
+    "entropy_bits": 3.494053315727209,
+    "normalized_entropy": 0.6758421669081144,
+    "gini": 0.7652940122710377,
+    "top5": {
+      "IGKV1": 4537,
+      "UNKNOWN": 4044,
+      "IGKV3": 2453,
+      "unknown": 1831,
+      "IGLV1": 1220
+    },
+    "top5_fraction_of_total": 0.7096432889963724
+  },
+  "heavy_species": {
+    "n_unique": 121,
+    "entropy_bits": 2.611541949700096,
+    "top5": {
+      "homo sapiens": 9602,
+      "mus musculus": 4426,
+      "lama glama": 1845,
+      "vicugna pacos": 967,
+      "synthetic construct": 703
+    }
+  },
+  "antigen_species": {
+    "n_unique": 944,
+    "entropy_bits": 5.482752516978544,
+    "top5": {
+      "unknown": 3907,
+      "homo sapiens": 3278,
+      "severe acute respiratory syndrome coronavirus2": 2491,
+      "human immunodeficiency virus 1": 1188,
+      "homo sapiens | homo sapiens": 997
+    }
+  },
+  "cross_species_pairing": {
+    "description": "Fraction of paired (heavy+light) entries where heavy_species and light_species match. This is a chain-pairing consistency check, NOT a comparison against antigen_species -- see heavy_antigen_species_match below for that.",
+    "n_evaluated": 14227,
+    "fraction_same_species_normalized": 0.9955015112110775,
+    "fraction_same_species_raw_string": 0.9955015112110775,
+    "top10_mismatched_species_pairs": {
+      "pseudomonas aeruginosa / homo sapiens": 18,
+      "homo sapiens / mus musculus": 11,
+      "mus musculus / homo sapiens": 4,
+      "neopyropia tenera / mus musculus": 4,
+      "synthetic construct / escherichia phage t4": 3,
+      "influenza a virus / mus musculus": 3,
+      "lama glama / homo sapiens": 3,
+      "homo / homo sapiens": 2,
+      "saccharopolyspora erythraea / homo sapiens": 2,
+      "synthetic construct / mus musculus": 2
+    }
+  },
+  "heavy_antigen_species_match": {
+    "description": "Fraction of antigen-bearing entries where the antibody's heavy_species matches its antigen_species (e.g. self-antigen / same-species target). Renamed from the original, misleadingly-named 'cross_species_pairing' field this was previously stored under -- see cross_species_pairing above for the actual heavy/light chain-pairing consistency statistic.",
+    "n_evaluated": 15848,
+    "fraction_same_species": 0.1343387178192832
+  },
+  "therapeutic": {
+    "fraction_therapeutic": 0.015568319226118501,
+    "n_therapeutic": 309,
+    "n_non_therapeutic": 19539,
+    "genetics_class_breakdown": {
+      "Genetically human": 137,
+      "Humanised": 91,
+      "Chimeric": 23,
+      "Humanised;Humanised": 16,
+      "Genetically human;Genetically human": 8,
+      "na": 8,
+      "Chimeric and/or humanised": 5,
+      "Murine": 5,
+      "Chimeric;Chimeric": 3,
+      "Humanised;Genetically human": 2,
+      "Genetically human;Humanised": 2,
+      "Chimeric and/or humanised;Chimeric and/or humanised": 2,
+      "Chimeric and/or humanised;Humanised": 1,
+      "Chimeric (Murine/Human)": 1,
+      "Genetically human;Chimeric and/or humanised": 1,
+      "Genetically Human": 1,
+      "Chimeric and humanised": 1,
+      "Chimeric and Humanised": 1,
+      "Humanised;Chimeric": 1
+    },
+    "mean_cdr3_len_therapeutic": 13.132686084142394,
+    "mean_cdr3_len_non_therapeutic": 14.8299298838221
+  },
+  "temporal": {
+    "year_range": [
+      1984,
+      2026
+    ],
+    "n_with_valid_year": 19848,
+    "n_missing_year": 0,
+    "therapeutic_fraction_by_year": {
+      "1984": 0.0,
+      "1988": 0.0,
+      "1989": 0.0,
+      "1990": 0.0,
+      "1991": 0.0,
+      "1992": 0.07142857142857142,
+      "1993": 0.0,
+      "1994": 0.03225806451612903,
+      "1995": 0.047619047619047616,
+      "1996": 0.02127659574468085,
+      "1997": 0.0,
+      "1998": 0.04411764705882353,
+      "1999": 0.015873015873015872,
+      "2000": 0.0,
+      "2001": 0.02857142857142857,
+      "2002": 0.011904761904761904,
+      "2003": 0.0,
+      "2004": 0.02564102564102564,
+      "2005": 0.0,
+      "2006": 0.006578947368421052,
+      "2007": 0.01834862385321101,
+      "2008": 0.011111111111111112,
+      "2009": 0.019963702359346643,
+      "2010": 0.02145922746781116,
+      "2011": 0.015384615384615385,
+      "2012": 0.0379746835443038,
+      "2013": 0.04811715481171548,
+      "2014": 0.034482758620689655,
+      "2015": 0.028145695364238412,
+      "2016": 0.04297994269340974,
+      "2017": 0.02959830866807611,
+      "2018": 0.015904572564612324,
+      "2019": 0.016260162601626018,
+      "2020": 0.018452380952380953,
+      "2021": 0.009029345372460496,
+      "2022": 0.01,
+      "2023": 0.009560229445506692,
+      "2024": 0.011898859692612791,
+      "2025": 0.0009514747859181732,
+      "2026": 0.0
+    }
+  },
+  "method_length_confound": {
+    "ELECTRON CRYSTALLOGRAPHY": {
+      "mean": 19.0,
+      "std": NaN,
+      "count": 1
+    },
+    "ELECTRON MICROSCOPY": {
+      "mean": 15.654688524590163,
+      "std": 4.321330529511038,
+      "count": 7625
+    },
+    "ELECTRON MICROSCOPY / HOMOLOGY MODEL": {
+      "mean": 16.88235294117647,
+      "std": 3.655173609782041,
+      "count": 17
+    },
+    "SOLUTION NMR": {
+      "mean": 13.863354037267081,
+      "std": 4.886840613333347,
+      "count": 161
+    },
+    "SOLUTION SCATTERING": {
+      "mean": 13.673913043478262,
+      "std": 0.9388875303002333,
+      "count": 92
+    },
+    "SOLUTION SCATTERING / HOMOLOGY MODEL": {
+      "mean": 14.304347826086957,
+      "std": 1.4432919965965352,
+      "count": 46
+    },
+    "X-RAY DIFFRACTION": {
+      "mean": 14.278706425871482,
+      "std": 4.387398446414552,
+      "count": 11905
+    },
+    "X-RAY DIFFRACTION, 1": {
+      "mean": 11.0,
+      "std": NaN,
+      "count": 1
+    }
+  }
+}
