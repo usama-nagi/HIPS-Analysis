@@ -1,4 +1,4 @@
-# Hidden in Plain Sight — Reproducibility Package
+# Hidden in Plain Sight - Reproducibility Package
 
 This repository contains the full analysis pipeline behind *"Hidden in
 Plain Sight: Quantifying Compositional Skews and CDR-H3 Redundancy in
@@ -19,7 +19,7 @@ either listed as another script's outputs below, or come from
 - `torch`, `numpy`, `pandas`, `scipy`, `biopython`, `pyyaml`
 - [MMseqs2](https://github.com/soedinglab/MMseqs2) on `PATH` (`conda install -c bioconda mmseqs2`)
 - [ANARCI](https://github.com/oxpig/ANARCI) importable, with `hmmscan` on `PATH`
-  (`apt-get install hmmer` on Debian/Ubuntu) — only required for
+  (`apt-get install hmmer` on Debian/Ubuntu) - only required for
   `anarci_germline_validation.py`, `scope_chain_mislabel.py`, and the two
   ANARCI-based audits
 - Raw data, obtained separately:
@@ -100,12 +100,12 @@ scripts/
 
 ---
 
-## Part 1 — Core reproducible pipeline
+## Part 1 - Core reproducible pipeline
 
 Run once, top to bottom, on a fresh checkout to go from raw data to every
 number and figure in the paper.
 
-### Stage 0 — Structural preprocessing (raw data → retained `.pt` files)
+### Stage 0 - Structural preprocessing (raw data → retained `.pt` files)
 ```
 python scripts/preprocess_sabdab.py \
     --summary    <raw_data>/sabdab_summary_all.tsv \
@@ -124,7 +124,7 @@ python scripts/assign_antigen_clusters.py \
 ```
 Adds `antigen_cluster_id` to the `.pt` files written above.
 
-### Stage 1 — Master table construction
+### Stage 1 - Master table construction
 ```
 python scripts/00_build_dataset.py --config configs/config.yaml
 ```
@@ -132,7 +132,7 @@ Reads: Stage 0's `.pt` files + raw SAbDab/Thera-SAbDab TSVs.
 Produces: `tables/master_antibodies.csv` (20,037 rows at this point),
 `tables/build_report.json`.
 
-### Stage 2 — Chain-mislabel quality filter (20,037 → 19,848)
+### Stage 2 - Chain-mislabel quality filter (20,037 → 19,848)
 ```
 python scripts/scope_chain_mislabel.py --config configs/config.yaml
 ```
@@ -154,7 +154,7 @@ mv tables/master_antibodies_clean.csv tables/master_antibodies.csv
 From here on, `master_antibodies.csv` is the final 19,848-row analysis
 population referenced everywhere else in this document and in the paper.
 
-### Stage 3 — RQ1 core analysis
+### Stage 3 - RQ1 core analysis
 ```
 python scripts/rq1_sequence_structural_bias.py --config configs/config.yaml
 ```
@@ -172,13 +172,13 @@ Produces (Sections A–E): `tables/rq1_cdrh3_clusters.tsv`,
 `tables/rq1_backbone_redundancy.json`, `tables/rq1_paratope_all_cdrs.json`.
 
 This is the single canonical source of `classify_antigen()` and
-`extract_cdrh3_sequences()` — every other script that needs either
+`extract_cdrh3_sequences()` - every other script that needs either
 imports them from here rather than keeping a local copy, so results
 cannot drift out of sync across the pipeline. Can be run with
 `--only A`/`B`/`C`/`D`/`E` individually; Section D requires Section B to
 have run at least once first (reads its `rq1_cdrh3_clusters.tsv`).
 
-### Stage 4 — Patch derived columns onto the master table
+### Stage 4 - Patch derived columns onto the master table
 Requires Stage 3's `rq1_cdrh3_clusters.tsv` and `rq1_antigen_landscape.json`
 for its self-verification checks.
 ```
@@ -193,10 +193,10 @@ python scripts/migrate_master_csv.py --config configs/config.yaml --only all
 Each op backs up `master_antibodies.csv` before its first run
 (`.bak_pre_<op>_patch`). `--only antigen_class` exits with status 1 and
 prints `[MISMATCH -- DO NOT TRUST THIS COLUMN YET]` if its output doesn't
-exactly reproduce `rq1_antigen_landscape.json`'s `antigen_class_counts` —
+exactly reproduce `rq1_antigen_landscape.json`'s `antigen_class_counts` -
 treat that as a hard stop, not a warning.
 
-### Stage 5 — Germline allele-resolution extension
+### Stage 5 - Germline allele-resolution extension
 ```
 python scripts/rq_germline_00_fetch_reference.py --config configs/config.yaml
 python scripts/rq_germline_01_assign.py --config configs/config.yaml
@@ -208,7 +208,7 @@ Produces: `tables/fetch_reference_report.json`,
 `tables/rq_germline_allele_assignment.json`,
 `tables/anarci_germline_cross_validation.json`.
 
-### Stage 6 — Antigen classifier validation
+### Stage 6 - Antigen classifier validation
 Requires Stage 4's `antigen_class` column.
 ```
 python scripts/validate_antigen_classifier_sample.py --config configs/config.yaml \
@@ -220,10 +220,10 @@ sidecar records the sampling parameters used) →
 ```
 python scripts/validate_antigen_classifier_score.py --config configs/config.yaml
 ```
-Produces: `tables/antigen_classifier_validation.json` — the source of the
+Produces: `tables/antigen_classifier_validation.json` - the source of the
 paper's classifier-validation appendix.
 
-### Stage 7 — RQ1 supporting audits
+### Stage 7 - RQ1 supporting audits
 Each is independently runnable once Stage 3 (+ Stage 4 for the two that
 need `antigen_class`) has completed; no ordering between them except
 where noted.
@@ -250,7 +250,7 @@ python scripts/audits/audit_sabdab2_splits.py --config configs/config.yaml \
 ```
 `audit_paratope_h3.py`'s output (`paratope_contact_redefinition.json`) is
 a hard input to `make_figures.py` in Stage 10, not just a standalone
-audit result — it must run before Stage 10.
+audit result - it must run before Stage 10.
 
 Each audit above writes one JSON to `tables/`, named after the script
 (e.g. `audit_exclusion_funnel.py` → `row_entry_accounting.json`;
@@ -265,10 +265,10 @@ Each audit above writes one JSON to `tables/`, named after the script
 `audit_nonnumeric_models.py` → `nonnumeric_model_investigation.json`;
 `audit_sars_cov2_sensitivity.py` → `audit_sars_cov2_sensitivity.json`;
 `audit_therapeutic_tiers.py` → `therapeutic_tier_audit.json`;
-`audit_sabdab2_splits.py` → `audit_sabdab2_splits.json`) — each script
+`audit_sabdab2_splits.py` → `audit_sabdab2_splits.json`) - each script
 also prints its output path on completion.
 
-### Stage 8 — RQ2
+### Stage 8 - RQ2
 ```
 python scripts/rq2_oas_comparison.py --config configs/config.yaml
 python scripts/rq2_composition_analysis.py --config configs/config.yaml
@@ -280,7 +280,7 @@ Produces: `tables/rq2_length_distributions.csv`,
 `rq2_composition_analysis.py`, which also reads the `rq2_*.json` outputs
 above for its OAS-heavy comparison).
 
-### Stage 9 — RQ3
+### Stage 9 - RQ3
 ```
 python scripts/rq3_redundancy_and_recommendations.py --config configs/config.yaml
 python scripts/rq3_dedup_threshold_sensitivity.py --config configs/config.yaml \
@@ -293,7 +293,7 @@ The threshold-sensitivity script imports `extract_cdrh3_sequences`/
 `run_mmseqs2_cluster` directly from `rq1_sequence_structural_bias.py`
 rather than keeping a local copy, for the same reason given in Stage 3.
 
-### Stage 10 — Figures
+### Stage 10 - Figures
 ```
 python scripts/make_figures.py --config configs/config.yaml
 ```
@@ -302,27 +302,27 @@ outputs above. Run last.
 
 ---
 
-## Part 2 — One-off scripts
+## Part 2 - One-off scripts
 
-- `scope_chain_mislabel.py` — read-only; safe to re-run any time for a
+- `scope_chain_mislabel.py` - read-only; safe to re-run any time for a
   fresh look, never mutates data.
-- `patch_apply_chain_mislabel_exclusions.py` — a one-time data migration
+- `patch_apply_chain_mislabel_exclusions.py` - a one-time data migration
   (folded into Part 1, Stage 2, since later stages depend on its output).
   Re-running it against an already-patched master table is guarded by its
   own self-check and will abort rather than double-apply.
 
 Every other script under `audits/`, `rq_*`, `validate_*`, and
 `anarci_germline_validation.py` writes an output that either the paper
-cites directly or another script in Part 1 reads — treat all of them as
+cites directly or another script in Part 1 reads - treat all of them as
 part of the reproducible chain, safe to re-run as needed.
 
-## Part 3 — Deprecated
+## Part 3 - Deprecated
 
-- `validate_antigen_classification.py` — superseded by
+- `validate_antigen_classification.py` - superseded by
   `validate_antigen_classifier_sample.py` + `validate_antigen_classifier_score.py`,
   which fix a sampling-design issue (the deprecated script samples
   grouped by the *predicted* class, which does not support a
-  population-weighted accuracy estimate — see the newer scripts'
+  population-weighted accuracy estimate - see the newer scripts'
   docstrings for the full rationale). Not imported or called by anything
   else in this repository; kept for reference rather than deleted.
 
@@ -333,7 +333,7 @@ part of the reproducible chain, safe to re-run as needed.
 Every script above prints the path it wrote on completion, and every
 output lands under `<work_dir>/tables/` unless noted otherwise. If you
 need to locate which script produced a specific number in the paper,
-`grep` the relevant table name across `scripts/` — the writer is always
+`grep` the relevant table name across `scripts/` - the writer is always
 the script whose `--config`-driven `work_dir` path matches.
 
 ## Before treating a re-run as a reproduction
@@ -342,5 +342,5 @@ Cross-check your own run's headline numbers (population size, cluster
 counts, Gini coefficients) against the values quoted in the paper before
 relying on any downstream figure or table. A mismatch usually traces to a
 different SAbDab/Thera-SAbDab/OAS snapshot date rather than a pipeline
-error — see the paper's Appendix for the exact snapshot date and file
+error - see the paper's Appendix for the exact snapshot date and file
 checksums used.
