@@ -28,7 +28,7 @@ either listed as another script's outputs below, or come from
   - An OAS-derived mmap directory with per-sequence CDR3 length and
     source-split metadata (built from [Observed Antibody Space](https://opig.stats.ox.ac.uk/webapps/oas/))
   - For `audit_sabdab2_splits.py` only: SAbDab2's published `ab_split.csv`
-    and `abag_split.csv` ([Zenodo record 20083995](https://zenodo.org/))
+    and `abag_split.csv` ([Zenodo record 20083995](https://zenodo.org/records/20083995))
 
 Every script takes `--config configs/config.yaml`. Paths written below are
 relative to `work_dir` in that config.
